@@ -5,6 +5,7 @@ Data structure to store information about a building
 export class Building {
   name;
   acronym;
+  objectId; // ArcGIS ObjectId when available
   faculty; // array of faculty categories
   numFloors;
   builtYear;

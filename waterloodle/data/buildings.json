@@ -2,7 +2,7 @@
   {
     "name": "School of Architecture",
     "acronym": "ARC",
-    "faculty": "NA",
+    "faculty": ["Engineering"],
     "numFloors": 3,
     "builtYear": 2004,
     "servesFood": false,
@@ -12,9 +12,9 @@
   {
     "name": "Arts Lecture Hall",
     "acronym": "AL",
-    "faculty": "NA",
+    "faculty": ["Other"],
     "numFloors": 2,
-    "builtYear": null,
+    "builtYear": 1968,
     "servesFood": false,
     "connectsTo": ["EV1", "ML", "TC"],
     "blurb": ""
@@ -22,9 +22,9 @@
   {
     "name": "AVRIL",
     "acronym": "AVR",
-    "faculty": "NA",
+    "faculty": ["Other"],
     "numFloors": 1,
-    "builtYear": null,
+    "builtYear": 2019,
     "servesFood": false,
     "connectsTo": [],
     "blurb": ""
@@ -32,9 +32,9 @@
   {
     "name": "Biology 1",
     "acronym": "B1",
-    "faculty": "NA",
+    "faculty": ["Science"],
     "numFloors": 3,
-    "builtYear": null,
+    "builtYear": 1969,
     "servesFood": false,
     "connectsTo": ["B2", "ESC"],
     "blurb": ""
@@ -42,9 +42,9 @@
   {
     "name": "Biology 2",
     "acronym": "B2",
-    "faculty": "NA",
+    "faculty": ["Science"],
     "numFloors": 3,
-    "builtYear": null,
+    "builtYear": 1971,
     "servesFood": false,
     "connectsTo": ["B1", "QNC", "STC"],
     "blurb": ""
@@ -52,9 +52,9 @@
   {
     "name": "Bauer Warehouse",
     "acronym": "BAU",
-    "faculty": "NA",
+    "faculty": ["Other"],
     "numFloors": 1,
-    "builtYear": null,
+    "builtYear": 1992,
     "servesFood": false,
     "connectsTo": [],
     "blurb": ""
@@ -62,9 +62,9 @@
   {
     "name": "B.C. Matthews Hall",
     "acronym": "BMH",
-    "faculty": "NA",
-    "numFloors": 4,
-    "builtYear": null,
+    "faculty": ["Health"],
+    "numFloors": 5,
+    "builtYear": 2001,
     "servesFood": false,
     "connectsTo": ["EXP", "LHI"],
     "blurb": ""
@@ -72,9 +72,9 @@
   {
     "name": "Lyle S. Hallman Institute for Health Promotion",
     "acronym": "LHI",
-    "faculty": "NA",
+    "faculty": ["Health"],
     "numFloors": 4,
-    "builtYear": null,
+    "builtYear": 2009,
     "servesFood": false,
     "connectsTo": ["BMH", "EXP"],
     "blurb": ""
@@ -82,9 +82,9 @@
   {
     "name": "Chemistry 2",
     "acronym": "C2",
-    "faculty": "NA",
+    "faculty": ["Other"],
     "numFloors": 4,
-    "builtYear": null,
+    "builtYear": 1971,
     "servesFood": false,
     "connectsTo": ["DC", "ESC", "MC"],
     "blurb": ""
@@ -92,39 +92,39 @@
   {
     "name": "Columbia Icefield",
     "acronym": "CIF",
-    "faculty": "NA",
+    "faculty": ["Other"],
     "numFloors": 1,
     "builtYear": 1983,
-    "servesFood": false,
+    "servesFood": true,
     "connectsTo": [],
     "blurb": ""
   },
   {
     "name": "Columbia Lake Village",
     "acronym": "CLV",
-    "faculty": "NA",
+    "faculty": ["Residence"],
     "numFloors": 2,
-    "builtYear": null,
-    "servesFood": false,
+    "builtYear": 2000,
+    "servesFood": true,
     "connectsTo": [],
     "blurb": ""
   },
   {
     "name": "Claudette Millar Hall",
     "acronym": "CMH",
-    "faculty": "NA",
+    "faculty": ["Residence"],
     "numFloors": 13,
-    "builtYear": null,
-    "servesFood": false,
+    "builtYear": 2017,
+    "servesFood": true,
     "connectsTo": [],
     "blurb": ""
   },
   {
     "name": "Commissary",
     "acronym": "COM",
-    "faculty": "NA",
+    "faculty": ["Other"],
     "numFloors": 2,
-    "builtYear": null,
+    "builtYear": 1988,
     "servesFood": false,
     "connectsTo": [],
     "blurb": ""
@@ -132,9 +132,9 @@
   {
     "name": "Carl A. Pollock Hall",
     "acronym": "CPH",
-    "faculty": "NA",
+    "faculty": ["Engineering"],
     "numFloors": 4,
-    "builtYear": null,
+    "builtYear": 1988,
     "servesFood": false,
     "connectsTo": ["E2"],
     "blurb": ""
@@ -142,17 +142,17 @@
   {
     "name": "William G. Davis Computer Research Centre",
     "acronym": "DC",
-    "faculty": "NA",
+    "faculty": ["Mathematics"],
     "numFloors": 3,
-    "builtYear": null,
-    "servesFood": false,
+    "builtYear": 1993,
+    "servesFood": true,
     "connectsTo": ["C2", "CIM", "M3", "MC"],
     "blurb": ""
   },
   {
     "name": "Digital Media Stratford",
     "acronym": "DMS",
-    "faculty": "NA",
+    "faculty": ["Other"],
     "numFloors": 3,
     "builtYear": 2010,
     "servesFood": false,
@@ -162,7 +162,7 @@
   {
     "name": "Douglas Wright Engineering Building",
     "acronym": "DWE",
-    "faculty": "NA",
+    "faculty": ["Engineering"],
     "numFloors": 3,
     "builtYear": 1958,
     "servesFood": false,
@@ -172,9 +172,9 @@
   {
     "name": "Engineering 2",
     "acronym": "E2",
-    "faculty": "NA",
+    "faculty": ["Engineering"],
     "numFloors": 4,
-    "builtYear": null,
+    "builtYear": 1968,
     "servesFood": false,
     "connectsTo": ["CPH", "DWE", "E3", "PHY", "RCH"],
     "blurb": ""
@@ -182,19 +182,19 @@
   {
     "name": "Engineering 3",
     "acronym": "E3",
-    "faculty": "NA",
+    "faculty": ["Engineering"],
     "numFloors": 4,
-    "builtYear": null,
-    "servesFood": false,
+    "builtYear": 1988,
+    "servesFood": true,
     "connectsTo": ["CIM", "E2", "E5"],
     "blurb": ""
   },
   {
     "name": "Engineering 5",
     "acronym": "E5",
-    "faculty": "NA",
+    "faculty": ["Engineering"],
     "numFloors": 6,
-    "builtYear": null,
+    "builtYear": 2018,
     "servesFood": false,
     "connectsTo": ["E3", "E7"],
     "blurb": ""
@@ -202,9 +202,9 @@
   {
     "name": "Engineering 6",
     "acronym": "E6",
-    "faculty": "NA",
+    "faculty": ["Engineering"],
     "numFloors": 6,
-    "builtYear": null,
+    "builtYear": 2003,
     "servesFood": false,
     "connectsTo": ["E7"],
     "blurb": ""
@@ -212,59 +212,19 @@
   {
     "name": "Engineering 7",
     "acronym": "E7",
-    "faculty": "NA",
+    "faculty": ["Engineering"],
     "numFloors": null,
-    "builtYear": null,
-    "servesFood": false,
+    "builtYear": 2017,
+    "servesFood": true,
     "connectsTo": ["E5", "E6"],
     "blurb": "Appears in the pasted roof-plan list, but no floor count was provided in the floor-plan section."
   },
   {
-    "name": "East Campus 1",
-    "acronym": "EC1",
-    "faculty": "NA",
+    "name": "East Campus 1-5",
+    "acronym": "EC1-5",
+    "faculty": ["Other"],
     "numFloors": 2,
-    "builtYear": null,
-    "servesFood": false,
-    "connectsTo": [],
-    "blurb": ""
-  },
-  {
-    "name": "East Campus 2",
-    "acronym": "EC2",
-    "faculty": "NA",
-    "numFloors": 4,
-    "builtYear": null,
-    "servesFood": false,
-    "connectsTo": [],
-    "blurb": ""
-  },
-  {
-    "name": "East Campus 3",
-    "acronym": "EC3",
-    "faculty": "NA",
-    "numFloors": 2,
-    "builtYear": null,
-    "servesFood": false,
-    "connectsTo": [],
-    "blurb": ""
-  },
-  {
-    "name": "East Campus 4",
-    "acronym": "EC4",
-    "faculty": "NA",
-    "numFloors": 2,
-    "builtYear": null,
-    "servesFood": false,
-    "connectsTo": [],
-    "blurb": ""
-  },
-  {
-    "name": "East Campus 5",
-    "acronym": "EC5",
-    "faculty": "NA",
-    "numFloors": 4,
-    "builtYear": null,
+    "builtYear": 1992,
     "servesFood": false,
     "connectsTo": [],
     "blurb": ""
@@ -272,9 +232,9 @@
   {
     "name": "East Campus Hall",
     "acronym": "ECH",
-    "faculty": "NA",
+    "faculty": ["Other"],
     "numFloors": 2,
-    "builtYear": null,
+    "builtYear": 1990,
     "servesFood": false,
     "connectsTo": [],
     "blurb": ""
@@ -282,19 +242,19 @@
   {
     "name": "Centre for Environmental and Information Technology",
     "acronym": "EIT",
-    "faculty": "NA",
+    "faculty": ["Engineering", "Science", "Environment"],
     "numFloors": 7,
-    "builtYear": null,
-    "servesFood": false,
+    "builtYear": 2002,
+    "servesFood": true,
     "connectsTo": ["CIM", "ESC", "PHY"],
     "blurb": ""
   },
   {
     "name": "Energy Research Centre",
     "acronym": "ERC",
-    "faculty": "NA",
+    "faculty": ["Other"],
     "numFloors": 3,
-    "builtYear": null,
+    "builtYear": 2008,
     "servesFood": false,
     "connectsTo": [],
     "blurb": ""
@@ -302,9 +262,9 @@
   {
     "name": "Earth Sciences & Chemistry",
     "acronym": "ESC",
-    "faculty": "NA",
+    "faculty": ["Other"],
     "numFloors": 4,
-    "builtYear": null,
+    "builtYear": 1972,
     "servesFood": false,
     "connectsTo": ["B1", "C2", "EIT"],
     "blurb": ""
@@ -312,9 +272,9 @@
   {
     "name": "Environment 1",
     "acronym": "EV1",
-    "faculty": "NA",
+    "faculty": ["Environment"],
     "numFloors": 5,
-    "builtYear": null,
+    "builtYear": 1968,
     "servesFood": false,
     "connectsTo": ["AL", "EV2"],
     "blurb": ""
@@ -322,9 +282,9 @@
   {
     "name": "Environment 2",
     "acronym": "EV2",
-    "faculty": "NA",
+    "faculty": ["Environment"],
     "numFloors": 3,
-    "builtYear": null,
+    "builtYear": 1996,
     "servesFood": false,
     "connectsTo": ["EV1", "EV3"],
     "blurb": ""
@@ -332,9 +292,9 @@
   {
     "name": "Environment 3",
     "acronym": "EV3",
-    "faculty": "NA",
+    "faculty": ["Environment"],
     "numFloors": 4,
-    "builtYear": null,
+    "builtYear": 2013,
     "servesFood": false,
     "connectsTo": ["EV2"],
     "blurb": ""
@@ -342,19 +302,9 @@
   {
     "name": "Federation Hall",
     "acronym": "FED",
-    "faculty": "NA",
+    "faculty": ["Other"],
     "numFloors": 1,
-    "builtYear": null,
-    "servesFood": false,
-    "connectsTo": [],
-    "blurb": ""
-  },
-  {
-    "name": "335 Gage Ave.",
-    "acronym": "GA",
-    "faculty": "NA",
-    "numFloors": 1,
-    "builtYear": null,
+    "builtYear": 1965,
     "servesFood": false,
     "connectsTo": [],
     "blurb": ""
@@ -362,9 +312,9 @@
   {
     "name": "Graduate House",
     "acronym": "GH",
-    "faculty": "NA",
+    "faculty": ["Other"],
     "numFloors": 2,
-    "builtYear": null,
+    "builtYear": 1890,
     "servesFood": false,
     "connectsTo": [],
     "blurb": ""
@@ -372,9 +322,9 @@
   {
     "name": "General Services Complex",
     "acronym": "GSC",
-    "faculty": "NA",
+    "faculty": ["Other"],
     "numFloors": 2,
-    "builtYear": null,
+    "builtYear": 1975,
     "servesFood": false,
     "connectsTo": [],
     "blurb": ""
@@ -382,19 +332,19 @@
   {
     "name": "J.G. Hagey Hall of the Humanities",
     "acronym": "HH",
-    "faculty": "NA",
+    "faculty": ["Other"],
     "numFloors": 4,
-    "builtYear": null,
-    "servesFood": false,
+    "builtYear": 1968,
+    "servesFood": true,
     "connectsTo": ["PAS", "TC"],
     "blurb": ""
   },
   {
     "name": "Health Services",
     "acronym": "HS",
-    "faculty": "NA",
+    "faculty": ["Other"],
     "numFloors": 2,
-    "builtYear": null,
+    "builtYear": 1988,
     "servesFood": false,
     "connectsTo": [],
     "blurb": ""
@@ -402,29 +352,29 @@
   {
     "name": "Integrated Health Building",
     "acronym": "IHB",
-    "faculty": "NA",
+    "faculty": ["Other"],
     "numFloors": 3,
-    "builtYear": null,
+    "builtYear": 2023,
     "servesFood": false,
     "connectsTo": [],
     "blurb": ""
   },
   {
     "name": "Dana Porter Library",
-    "acronym": "LIB",
-    "faculty": "NA",
+    "acronym": "DP",
+    "faculty": ["Other"],
     "numFloors": 10,
-    "builtYear": null,
-    "servesFood": false,
+    "builtYear": 1968,
+    "servesFood": true,
     "connectsTo": [],
     "blurb": ""
   },
   {
     "name": "Mathematics 3",
     "acronym": "M3",
-    "faculty": "NA",
+    "faculty": ["Mathematics"],
     "numFloors": 4,
-    "builtYear": null,
+    "builtYear": 1990,
     "servesFood": false,
     "connectsTo": ["DC", "MC"],
     "blurb": ""
@@ -432,49 +382,49 @@
   {
     "name": "Mathematics & Computer",
     "acronym": "MC",
-    "faculty": "NA",
+    "faculty": ["Mathematics"],
     "numFloors": 6,
-    "builtYear": null,
-    "servesFood": false,
+    "builtYear": 1968,
+    "servesFood": true,
     "connectsTo": ["C2", "DC", "M3", "QNC", "SLC"],
     "blurb": ""
   },
   {
     "name": "Minota Hagey Residence",
     "acronym": "MHR",
-    "faculty": "NA",
+    "faculty": ["Residence"],
     "numFloors": 3,
-    "builtYear": null,
-    "servesFood": false,
+    "builtYear": 1993,
+    "servesFood": true,
     "connectsTo": [],
     "blurb": ""
   },
   {
     "name": "William Lyon Mackenzie King Village",
     "acronym": "MKV",
-    "faculty": "NA",
+    "faculty": ["Residence"],
     "numFloors": 5,
-    "builtYear": null,
-    "servesFood": false,
+    "builtYear": 2003,
+    "servesFood": true,
     "connectsTo": [],
     "blurb": ""
   },
   {
     "name": "Modern Languages",
     "acronym": "ML",
-    "faculty": "NA",
+    "faculty": ["Other"],
     "numFloors": 3,
-    "builtYear": null,
-    "servesFood": false,
+    "builtYear": 1968,
+    "servesFood": true,
     "connectsTo": ["AL"],
     "blurb": ""
   },
   {
     "name": "Ira G. Needles Hall",
     "acronym": "NH",
-    "faculty": "NA",
+    "faculty": ["Other"],
     "numFloors": 4,
-    "builtYear": null,
+    "builtYear": 1968,
     "servesFood": false,
     "connectsTo": ["STC"],
     "blurb": ""
@@ -482,9 +432,9 @@
   {
     "name": "Optometry",
     "acronym": "OPT",
-    "faculty": "NA",
+    "faculty": ["Science"],
     "numFloors": 4,
-    "builtYear": null,
+    "builtYear": 1967,
     "servesFood": false,
     "connectsTo": [],
     "blurb": ""
@@ -492,19 +442,19 @@
   {
     "name": "Physical Activities Complex",
     "acronym": "PAC",
-    "faculty": "NA",
+    "faculty": ["Other"],
     "numFloors": 3,
-    "builtYear": null,
-    "servesFood": false,
+    "builtYear": 1969,
+    "servesFood": true,
     "connectsTo": ["SLC"],
     "blurb": ""
   },
   {
     "name": "Psychology, Anthropology & Sociology",
     "acronym": "PAS",
-    "faculty": "NA",
+    "faculty": ["Arts"],
     "numFloors": 5,
-    "builtYear": null,
+    "builtYear": 1973,
     "servesFood": false,
     "connectsTo": ["HH"],
     "blurb": ""
@@ -512,7 +462,7 @@
   {
     "name": "School of Pharmacy",
     "acronym": "PHR",
-    "faculty": "NA",
+    "faculty": ["Science"],
     "numFloors": 9,
     "builtYear": 2008,
     "servesFood": false,
@@ -522,9 +472,9 @@
   {
     "name": "Physics",
     "acronym": "PHY",
-    "faculty": "NA",
+    "faculty": ["Science"],
     "numFloors": 4,
-    "builtYear": null,
+    "builtYear": 1967,
     "servesFood": false,
     "connectsTo": ["E2", "EIT"],
     "blurb": ""
@@ -532,9 +482,9 @@
   {
     "name": "Pearl Sullivan Engineering Building",
     "acronym": "PSE",
-    "faculty": "NA",
+    "faculty": ["Other"],
     "numFloors": 8,
-    "builtYear": null,
+    "builtYear": 2018,
     "servesFood": false,
     "connectsTo": [],
     "blurb": ""
@@ -542,9 +492,9 @@
   {
     "name": "Quantum Nano Centre",
     "acronym": "QNC",
-    "faculty": "NA",
+    "faculty": ["Other"],
     "numFloors": 6,
-    "builtYear": null,
+    "builtYear": 2012,
     "servesFood": false,
     "connectsTo": ["B2", "MC"],
     "blurb": ""
@@ -552,9 +502,9 @@
   {
     "name": "Research Advancement Centre",
     "acronym": "RAC",
-    "faculty": "NA",
+    "faculty": ["Other"],
     "numFloors": 4,
-    "builtYear": null,
+    "builtYear": 2005,
     "servesFood": false,
     "connectsTo": [],
     "blurb": ""
@@ -562,9 +512,9 @@
   {
     "name": "Research Advancement Centre 2",
     "acronym": "RA2",
-    "faculty": "NA",
+    "faculty": ["Other"],
     "numFloors": 4,
-    "builtYear": null,
+    "builtYear": 2011,
     "servesFood": false,
     "connectsTo": [],
     "blurb": ""
@@ -572,9 +522,9 @@
   {
     "name": "J.R. Coutts Engineering Lecture Hall",
     "acronym": "RCH",
-    "faculty": "NA",
+    "faculty": ["Other"],
     "numFloors": 3,
-    "builtYear": null,
+    "builtYear": 1962,
     "servesFood": false,
     "connectsTo": ["DWE", "E2"],
     "blurb": ""
@@ -582,49 +532,49 @@
   {
     "name": "Ron Eydt Village",
     "acronym": "REV",
-    "faculty": "NA",
+    "faculty": ["Residence"],
     "numFloors": 3,
-    "builtYear": null,
-    "servesFood": false,
+    "builtYear": 1970,
+    "servesFood": true,
     "connectsTo": [],
     "blurb": ""
   },
   {
     "name": "South Campus Hall",
     "acronym": "SCH",
-    "faculty": "NA",
+    "faculty": ["Other"],
     "numFloors": 2,
-    "builtYear": null,
-    "servesFood": false,
+    "builtYear": 1968,
+    "servesFood": true,
     "connectsTo": ["TC"],
     "blurb": ""
   },
   {
     "name": "Student Life Centre",
     "acronym": "SLC",
-    "faculty": "NA",
+    "faculty": ["Other"],
     "numFloors": 3,
-    "builtYear": null,
-    "servesFood": false,
+    "builtYear": 1972,
+    "servesFood": true,
     "connectsTo": ["MC", "PAC"],
     "blurb": ""
   },
   {
     "name": "Science Teaching Complex",
     "acronym": "STC",
-    "faculty": "NA",
+    "faculty": ["Science"],
     "numFloors": 5,
-    "builtYear": null,
-    "servesFood": false,
+    "builtYear": 2004,
+    "servesFood": true,
     "connectsTo": ["B2", "NH"],
     "blurb": ""
   },
   {
     "name": "William M. Tatham Centre for Co-operative Education & Career Action",
     "acronym": "TC",
-    "faculty": "NA",
+    "faculty": ["Other"],
     "numFloors": 3,
-    "builtYear": null,
+    "builtYear": 1985,
     "servesFood": false,
     "connectsTo": ["AL", "HH", "SCH"],
     "blurb": ""
@@ -632,9 +582,9 @@
   {
     "name": "Tutors' Houses",
     "acronym": "TH",
-    "faculty": "NA",
+    "faculty": ["Other"],
     "numFloors": 2,
-    "builtYear": null,
+    "builtYear": 1962,
     "servesFood": false,
     "connectsTo": [],
     "blurb": ""
@@ -642,9 +592,9 @@
   {
     "name": "Toby Jenkins Applied Health Research Building",
     "acronym": "TJB",
-    "faculty": "NA",
+    "faculty": ["Other"],
     "numFloors": 2,
-    "builtYear": null,
+    "builtYear": 2015,
     "servesFood": false,
     "connectsTo": [],
     "blurb": ""
@@ -652,39 +602,39 @@
   {
     "name": "University Club",
     "acronym": "UC",
-    "faculty": "NA",
+    "faculty": ["Other"],
     "numFloors": 1,
-    "builtYear": null,
-    "servesFood": false,
+    "builtYear": 1963,
+    "servesFood": true,
     "connectsTo": [],
     "blurb": ""
   },
   {
     "name": "University of Waterloo Place",
     "acronym": "UWP",
-    "faculty": "NA",
+    "faculty": ["Residence"],
     "numFloors": 14,
-    "builtYear": null,
-    "servesFood": false,
+    "builtYear": 1993,
+    "servesFood": true,
     "connectsTo": [],
     "blurb": ""
   },
   {
     "name": "Student Village 1",
     "acronym": "V1",
-    "faculty": "NA",
+    "faculty": ["Residence"],
     "numFloors": 3,
     "builtYear": 1966,
-    "servesFood": false,
+    "servesFood": true,
     "connectsTo": [],
     "blurb": ""
   },
   {
     "name": "Centre for Integrated Manufacturing",
     "acronym": "CIM",
-    "faculty": "NA",
+    "faculty": ["Other"],
     "numFloors": null,
-    "builtYear": null,
+    "builtYear": 1994,
     "servesFood": false,
     "connectsTo": ["DC", "E3", "EIT"],
     "blurb": "Added from the supplied adjacency list; no floor-plan entry was provided in the supplied source."
@@ -692,11 +642,81 @@
   {
     "name": "Expansion",
     "acronym": "EXP",
-    "faculty": "NA",
-    "numFloors": null,
-    "builtYear": null,
-    "servesFood": false,
+    "faculty": ["Health"],
+    "numFloors": 1,
+    "builtYear": 2010,
+    "servesFood": true,
     "connectsTo": ["BMH", "LHI"],
     "blurb": "Added from the supplied adjacency list; no floor-plan entry was provided in the supplied source."
+  },
+  {
+    "name": "St. Jerome's University",
+    "acronym": "STJ",
+    "faculty": ["University College"],
+    "numFloors": null,
+    "builtYear": 1865,
+    "servesFood": true,
+    "connectsTo": [],
+    "blurb": "Added per user request."
+  },
+  {
+    "name": "United College",
+    "acronym": "UTD",
+    "faculty": ["University College"],
+    "numFloors": null,
+    "builtYear": 1962,
+    "servesFood": true,
+    "connectsTo": [],
+    "blurb": "Added per user request."
+  },
+  {
+    "name": "Conrad Grebel University College",
+    "acronym": "CRD",
+    "faculty": ["University College"],
+    "numFloors": null,
+    "builtYear": 1961,
+    "servesFood": true,
+    "connectsTo": [],
+    "blurb": "Added per user request."
+  },
+  {
+    "name": "Renison University College",
+    "acronym": "REN",
+    "faculty": ["University College"],
+    "numFloors": null,
+    "builtYear": 1959,
+    "servesFood": true,
+    "connectsTo": [],
+    "blurb": "Added per user request."
+  },
+  {
+    "name": "Architecture Annex Rome",
+    "acronym": "AAR",
+    "faculty": ["Engineering"],
+    "numFloors": null,
+    "builtYear": 1979,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": "Added per user request."
+  },
+  {
+    "name": "Brubacher House",
+    "acronym": "BRH",
+    "faculty": ["Other"],
+    "numFloors": null,
+    "builtYear": 1850,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": "Added per user request."
+  },
+  {
+    "name": "Central Services Building",
+    "acronym": "CSB",
+    "faculty": ["Other"],
+    "numFloors": null,
+    "builtYear": 1990,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": "Added per user request."
   }
 ]

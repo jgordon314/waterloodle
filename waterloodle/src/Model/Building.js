@@ -5,7 +5,7 @@ Data structure to store information about a building
 export class Building {
   name;
   acronym;
-  faculty; // faculty name, or NA
+  faculty; // array of faculty categories
   numFloors;
   builtYear;
   servesFood; // T/F

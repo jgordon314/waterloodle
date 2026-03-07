@@ -3,9 +3,7 @@
     "name": "School of Architecture",
     "acronym": "ARC",
     "objectId": 126,
-    "faculty": [
-      "Engineering"
-    ],
+    "faculty": ["Engineering"],
     "numFloors": 3,
     "builtYear": 2004,
     "servesFood": false,
@@ -16,26 +14,18 @@
     "name": "Arts Lecture Hall",
     "acronym": "AL",
     "objectId": 9,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 2,
     "builtYear": 1968,
     "servesFood": false,
-    "connectsTo": [
-      "EV1",
-      "ML",
-      "TC"
-    ],
+    "connectsTo": ["EV1", "ML", "TC"],
     "blurb": "Arts Lecture Hall is one of the standard lecture-heavy buildings near the Arts and Environment side of campus. If your class is here, expect straightforward classrooms rather than fancy lounges or lab space."
   },
   {
     "name": "AVRIL",
     "acronym": "AVR",
     "objectId": 284,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 1,
     "builtYear": 2019,
     "servesFood": false,
@@ -46,42 +36,29 @@
     "name": "Biology 1",
     "acronym": "B1",
     "objectId": 7,
-    "faculty": [
-      "Science"
-    ],
+    "faculty": ["Science"],
     "numFloors": 3,
     "builtYear": 1969,
     "servesFood": false,
-    "connectsTo": [
-      "B2",
-      "ESC"
-    ],
+    "connectsTo": ["B2", "ESC"],
     "blurb": "Biology 1 is a core science building, and it also matters historically because the Earth Sciences Museum originally opened in Biology 1 in the late 1960s. For a first-year science student, it is one of those buildings you start recognizing very quickly."
   },
   {
     "name": "Biology 2",
     "acronym": "B2",
     "objectId": 13,
-    "faculty": [
-      "Science"
-    ],
+    "faculty": ["Science"],
     "numFloors": 3,
     "builtYear": 1971,
     "servesFood": false,
-    "connectsTo": [
-      "B1",
-      "QNC",
-      "STC"
-    ],
+    "connectsTo": ["B1", "QNC", "STC"],
     "blurb": "Biology 2 sits in the science cluster beside STC and QNC, so it often ends up on busy class routes between older and newer science buildings. If you are in science, you will probably pass through here long before you remember where every lecture is."
   },
   {
     "name": "Bauer Warehouse",
     "acronym": "BAU",
     "objectId": 102,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 1,
     "builtYear": 1992,
     "servesFood": false,
@@ -92,58 +69,40 @@
     "name": "B.C. Matthews Hall",
     "acronym": "BMH",
     "objectId": 95,
-    "faculty": [
-      "Health"
-    ],
+    "faculty": ["Health"],
     "numFloors": 5,
     "builtYear": 2001,
     "servesFood": false,
-    "connectsTo": [
-      "EXP",
-      "LHI"
-    ],
+    "connectsTo": ["EXP", "LHI"],
     "blurb": "B.C. Matthews Hall anchors much of the Health area and links directly toward newer Health spaces. If you are in Public Health, Kinesiology, or Health research circles, this becomes one of your home bases."
   },
   {
     "name": "Lyle S. Hallman Institute for Health Promotion",
     "acronym": "LHI",
     "objectId": 197,
-    "faculty": [
-      "Health"
-    ],
+    "faculty": ["Health"],
     "numFloors": 4,
     "builtYear": 2009,
     "servesFood": false,
-    "connectsTo": [
-      "BMH",
-      "EXP"
-    ],
+    "connectsTo": ["BMH", "EXP"],
     "blurb": "LHI is part of the Health cluster beside BMH and EXP, so a lot of Health activity feels concentrated around this corner of campus. It is a quieter part of campus, which many students end up appreciating during exam season."
   },
   {
     "name": "Chemistry 2",
     "acronym": "C2",
     "objectId": 91,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 4,
     "builtYear": 1971,
     "servesFood": false,
-    "connectsTo": [
-      "DC",
-      "ESC",
-      "MC"
-    ],
+    "connectsTo": ["DC", "ESC", "MC"],
     "blurb": "Chemistry 2 is one of those practical connector buildings that science, math, and engineering students all end up using. Its links to MC and DC make it feel more central than its name suggests."
   },
   {
     "name": "Columbia Icefield",
     "acronym": "CIF",
     "objectId": 104,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 1,
     "builtYear": 1983,
     "servesFood": true,
@@ -154,9 +113,7 @@
     "name": "Columbia Lake Village",
     "acronym": "CLV",
     "objectId": 105,
-    "faculty": [
-      "Residence"
-    ],
+    "faculty": ["Residence"],
     "numFloors": 2,
     "builtYear": 2000,
     "servesFood": true,
@@ -167,9 +124,7 @@
     "name": "Claudette Millar Hall",
     "acronym": "CMH",
     "objectId": 147,
-    "faculty": [
-      "Residence"
-    ],
+    "faculty": ["Residence"],
     "numFloors": 13,
     "builtYear": 2017,
     "servesFood": true,
@@ -180,9 +135,7 @@
     "name": "Commissary",
     "acronym": "COM",
     "objectId": 15,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 2,
     "builtYear": 1988,
     "servesFood": false,
@@ -193,42 +146,29 @@
     "name": "Carl A. Pollock Hall",
     "acronym": "CPH",
     "objectId": 92,
-    "faculty": [
-      "Engineering"
-    ],
+    "faculty": ["Engineering"],
     "numFloors": 4,
     "builtYear": 1988,
     "servesFood": false,
-    "connectsTo": [
-      "E2"
-    ],
+    "connectsTo": ["E2"],
     "blurb": "CPH is an engineering student hub as much as it is a classroom building. The EngSoc office, POETS, and one of the Engineering Society C&D counters are here, so it is worth knowing even if you only came for a lecture."
   },
   {
     "name": "William G. Davis Computer Research Centre",
     "acronym": "DC",
     "objectId": 100,
-    "faculty": [
-      "Mathematics"
-    ],
+    "faculty": ["Mathematics"],
     "numFloors": 3,
     "builtYear": 1993,
     "servesFood": true,
-    "connectsTo": [
-      "C2",
-      "CIM",
-      "M3",
-      "MC"
-    ],
+    "connectsTo": ["C2", "CIM", "M3", "MC"],
     "blurb": "DC is a major study building because it houses the Davis Centre Library for engineering, math, and science. The Waterloo Computer Museum has also used display space here, so it is one of the few buildings where serious study and old hardware nostalgia overlap."
   },
   {
     "name": "Digital Media Stratford",
     "acronym": "DMS",
     "objectId": 134,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 3,
     "builtYear": 2010,
     "servesFood": false,
@@ -239,108 +179,73 @@
     "name": "Douglas Wright Engineering Building",
     "acronym": "DWE",
     "objectId": 1,
-    "faculty": [
-      "Engineering"
-    ],
+    "faculty": ["Engineering"],
     "numFloors": 3,
     "builtYear": 1958,
     "servesFood": false,
-    "connectsTo": [
-      "E2",
-      "RCH"
-    ],
+    "connectsTo": ["E2", "RCH"],
     "blurb": "Douglas Wright Engineering is the oldest building erected for the university, which makes it a real piece of Waterloo history. It started life as the original engineering building, so it still feels like old-school Waterloo engineering in the best way."
   },
   {
     "name": "Engineering 2",
     "acronym": "E2",
     "objectId": 2,
-    "faculty": [
-      "Engineering"
-    ],
+    "faculty": ["Engineering"],
     "numFloors": 4,
     "builtYear": 1968,
     "servesFood": false,
-    "connectsTo": [
-      "CPH",
-      "DWE",
-      "E3",
-      "PHY",
-      "RCH"
-    ],
+    "connectsTo": ["CPH", "DWE", "E3", "PHY", "RCH"],
     "blurb": "E2 matters to first-years because the First Year Engineering Office is in E2-1772 on the first floor. A lot of core engineering classes also land here, so it is one of the first buildings many engineers actually learn properly."
   },
   {
     "name": "Engineering 3",
     "acronym": "E3",
     "objectId": 3,
-    "faculty": [
-      "Engineering"
-    ],
+    "faculty": ["Engineering"],
     "numFloors": 4,
     "builtYear": 1988,
     "servesFood": true,
-    "connectsTo": [
-      "CIM",
-      "E2",
-      "E5"
-    ],
+    "connectsTo": ["CIM", "E2", "E5"],
     "blurb": "E3 is a workhorse engineering building with classrooms, labs, and easy links into the rest of the engineering cluster. It is not the flashiest building, but plenty of students spend a lot of time here once design projects and upper-year courses kick in."
   },
   {
     "name": "Engineering 5",
     "acronym": "E5",
     "objectId": 132,
-    "faculty": [
-      "Engineering"
-    ],
+    "faculty": ["Engineering"],
     "numFloors": 6,
     "builtYear": 2018,
     "servesFood": false,
-    "connectsTo": [
-      "E3",
-      "E7"
-    ],
+    "connectsTo": ["E3", "E7"],
     "blurb": "E5 is one of the newer engineering buildings and usually feels a bit cleaner and more modern than the older core. If you are moving between E3 and E7 a lot, this building quickly becomes part of your default route."
   },
   {
     "name": "Engineering 6",
     "acronym": "E6",
     "objectId": 139,
-    "faculty": [
-      "Engineering"
-    ],
+    "faculty": ["Engineering"],
     "numFloors": 6,
     "builtYear": 2003,
     "servesFood": false,
-    "connectsTo": [
-      "E7"
-    ],
+    "connectsTo": ["E7"],
     "blurb": "E6 is another modern engineering building with offices, classrooms, and project space packed into the east engineering cluster. It is a good building to know because it sits right beside E7 and ends up on a lot of engineering walking paths."
   },
   {
     "name": "Engineering 7",
     "acronym": "E7",
     "objectId": 317,
-    "faculty": [
-      "Engineering"
-    ],
+    "faculty": ["Engineering"],
     "numFloors": 7,
     "builtYear": 2017,
     "servesFood": true,
-    "connectsTo": [
-      "E5",
-      "E6"
-    ],
+    "connectsTo": ["E5", "E6"],
     "blurb": "E7 is the modern engineering showcase building and one of the easier places on campus to find bright study space. The Engineering Society runs a C&D on the first floor, so it is also a practical snack stop instead of just a pretty building."
   },
   {
     "name": "East Campus 1-5",
     "acronym": "EC1-5",
     "objectId": 141,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 2,
     "builtYear": 1992,
     "servesFood": false,
@@ -351,9 +256,7 @@
     "name": "East Campus Hall",
     "acronym": "ECH",
     "objectId": 99,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 2,
     "builtYear": 1990,
     "servesFood": false,
@@ -364,28 +267,18 @@
     "name": "Centre for Environmental and Information Technology",
     "acronym": "EIT",
     "objectId": 101,
-    "faculty": [
-      "Engineering",
-      "Science",
-      "Environment"
-    ],
+    "faculty": ["Engineering", "Science", "Environment"],
     "numFloors": 7,
     "builtYear": 2002,
     "servesFood": true,
-    "connectsTo": [
-      "CIM",
-      "ESC",
-      "PHY"
-    ],
+    "connectsTo": ["CIM", "ESC", "PHY"],
     "blurb": "EIT is one of the coolest buildings to show visitors because it houses the Earth Sciences Museum and its big atrium displays. If you want a first-year tip, the museum, rock garden, and geology exhibits make this an unexpectedly fun study-break stop."
   },
   {
     "name": "Energy Research Centre",
     "acronym": "ERC",
     "objectId": 127,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 3,
     "builtYear": 2008,
     "servesFood": false,
@@ -396,73 +289,51 @@
     "name": "Earth Sciences & Chemistry",
     "acronym": "ESC",
     "objectId": 6,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 4,
     "builtYear": 1972,
     "servesFood": false,
-    "connectsTo": [
-      "B1",
-      "C2",
-      "EIT"
-    ],
+    "connectsTo": ["B1", "C2", "EIT"],
     "blurb": "ESC sits between older science buildings and EIT, so it works as both a science building and a shortcut. It is one of those places that becomes familiar mostly because you keep cutting through it."
   },
   {
     "name": "Environment 1",
     "acronym": "EV1",
     "objectId": 10,
-    "faculty": [
-      "Environment"
-    ],
+    "faculty": ["Environment"],
     "numFloors": 5,
     "builtYear": 1968,
     "servesFood": false,
-    "connectsTo": [
-      "AL",
-      "EV2"
-    ],
+    "connectsTo": ["AL", "EV2"],
     "blurb": "EV1 is one of the original Environment buildings and sits right beside the Arts cluster, so it is easy to reach from AL and ML. If you are in Environment, this is part of the faculty's older core."
   },
   {
     "name": "Environment 2",
     "acronym": "EV2",
     "objectId": 97,
-    "faculty": [
-      "Environment"
-    ],
+    "faculty": ["Environment"],
     "numFloors": 3,
     "builtYear": 1996,
     "servesFood": false,
-    "connectsTo": [
-      "EV1",
-      "EV3"
-    ],
+    "connectsTo": ["EV1", "EV3"],
     "blurb": "EV2 continues the Environment cluster and usually feels quieter than the busiest central buildings. It is the kind of place you start appreciating once you discover a good empty corner between classes."
   },
   {
     "name": "Environment 3",
     "acronym": "EV3",
     "objectId": 136,
-    "faculty": [
-      "Environment"
-    ],
+    "faculty": ["Environment"],
     "numFloors": 4,
     "builtYear": 2013,
     "servesFood": false,
-    "connectsTo": [
-      "EV2"
-    ],
+    "connectsTo": ["EV2"],
     "blurb": "EV3 is the newest Environment building, so it feels more modern than EV1 and EV2. For Environment students, it is one of the nicer examples of how the faculty expanded without leaving its original corner of campus."
   },
   {
     "name": "Federation Hall",
     "acronym": "FED",
     "objectId": 98,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 1,
     "builtYear": 1965,
     "servesFood": false,
@@ -473,9 +344,7 @@
     "name": "Graduate House",
     "acronym": "GH",
     "objectId": 158,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 2,
     "builtYear": 1890,
     "servesFood": false,
@@ -486,9 +355,7 @@
     "name": "General Services Complex",
     "acronym": "GSC",
     "objectId": 14,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 2,
     "builtYear": 1975,
     "servesFood": false,
@@ -499,25 +366,18 @@
     "name": "J.G. Hagey Hall of the Humanities",
     "acronym": "HH",
     "objectId": 51,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 4,
     "builtYear": 1968,
     "servesFood": true,
-    "connectsTo": [
-      "PAS",
-      "TC"
-    ],
+    "connectsTo": ["PAS", "TC"],
     "blurb": "Hagey Hall is one of the big Arts anchors, so humanities students end up here constantly. It is also well positioned between PAS and TC, which makes it part of a very busy student corridor."
   },
   {
     "name": "Health Services",
     "acronym": "HS",
     "objectId": 49,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 2,
     "builtYear": 1988,
     "servesFood": false,
@@ -528,9 +388,7 @@
     "name": "Integrated Health Building",
     "acronym": "IHB",
     "objectId": 131,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 3,
     "builtYear": 2023,
     "servesFood": false,
@@ -541,9 +399,7 @@
     "name": "Dana Porter Library",
     "acronym": "DP",
     "objectId": 8,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 10,
     "builtYear": 1968,
     "servesFood": true,
@@ -554,44 +410,29 @@
     "name": "Mathematics 3",
     "acronym": "M3",
     "objectId": 135,
-    "faculty": [
-      "Mathematics"
-    ],
+    "faculty": ["Mathematics"],
     "numFloors": 4,
     "builtYear": 1990,
     "servesFood": false,
-    "connectsTo": [
-      "DC",
-      "MC"
-    ],
+    "connectsTo": ["DC", "MC"],
     "blurb": "M3 is part of the math-computing cluster and often ends up catching overflow offices, classrooms, and specialized spaces. It is less iconic than MC or DC, but still part of the same everyday orbit for math students."
   },
   {
     "name": "Mathematics & Computer",
     "acronym": "MC",
     "objectId": 17,
-    "faculty": [
-      "Mathematics"
-    ],
+    "faculty": ["Mathematics"],
     "numFloors": 6,
     "builtYear": 1968,
     "servesFood": true,
-    "connectsTo": [
-      "C2",
-      "DC",
-      "M3",
-      "QNC",
-      "SLC"
-    ],
+    "connectsTo": ["C2", "DC", "M3", "QNC", "SLC"],
     "blurb": "MC is the classic math building and a real student-life spot, not just a lecture building. MathSoc's office is in MC 3038, Math CnD is on the third floor, and the building is tied to the Pink Tie legend that math students still talk about."
   },
   {
     "name": "Minota Hagey Residence",
     "acronym": "MHR",
     "objectId": 50,
-    "faculty": [
-      "Residence"
-    ],
+    "faculty": ["Residence"],
     "numFloors": 3,
     "builtYear": 1993,
     "servesFood": true,
@@ -602,9 +443,7 @@
     "name": "William Lyon Mackenzie King Village",
     "acronym": "MKV",
     "objectId": 121,
-    "faculty": [
-      "Residence"
-    ],
+    "faculty": ["Residence"],
     "numFloors": 5,
     "builtYear": 2003,
     "servesFood": true,
@@ -615,39 +454,29 @@
     "name": "Modern Languages",
     "acronym": "ML",
     "objectId": 5,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 3,
     "builtYear": 1968,
     "servesFood": true,
-    "connectsTo": [
-      "AL"
-    ],
+    "connectsTo": ["AL"],
     "blurb": "Modern Languages is the building with the Porcellino boar statue outside, which became an Arts mascot and a campus photo landmark. Even if you never study languages, you will probably use the boar as a meeting point at some point."
   },
   {
     "name": "Ira G. Needles Hall",
     "acronym": "NH",
     "objectId": 94,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 4,
     "builtYear": 1968,
     "servesFood": false,
-    "connectsTo": [
-      "STC"
-    ],
+    "connectsTo": ["STC"],
     "blurb": "Needles Hall is worth knowing because many central administrative and student-service functions run through it. If you ever need official paperwork, records help, or other bureaucratic problem-solving, NH is the kind of building that suddenly matters a lot."
   },
   {
     "name": "Optometry",
     "acronym": "OPT",
     "objectId": 96,
-    "faculty": [
-      "Science"
-    ],
+    "faculty": ["Science"],
     "numFloors": 4,
     "builtYear": 1967,
     "servesFood": false,
@@ -658,39 +487,29 @@
     "name": "Physical Activities Complex",
     "acronym": "PAC",
     "objectId": 18,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 3,
     "builtYear": 1969,
     "servesFood": true,
-    "connectsTo": [
-      "SLC"
-    ],
+    "connectsTo": ["SLC"],
     "blurb": "PAC is one of the core recreation buildings, with gyms, courts, and the pool all feeding into student life. Since it connects to SLC, it is also part of one of the most useful indoor routes on campus."
   },
   {
     "name": "Psychology, Anthropology & Sociology",
     "acronym": "PAS",
     "objectId": 93,
-    "faculty": [
-      "Arts"
-    ],
+    "faculty": ["Arts"],
     "numFloors": 5,
     "builtYear": 1973,
     "servesFood": false,
-    "connectsTo": [
-      "HH"
-    ],
+    "connectsTo": ["HH"],
     "blurb": "PAS handles a huge amount of Arts and social science traffic, so many students meet it early even if it is not their faculty home. It is a very normal place to have an unexpectedly large first-year elective."
   },
   {
     "name": "School of Pharmacy",
     "acronym": "PHR",
     "objectId": 128,
-    "faculty": [
-      "Science"
-    ],
+    "faculty": ["Science"],
     "numFloors": 9,
     "builtYear": 2008,
     "servesFood": false,
@@ -701,25 +520,18 @@
     "name": "Physics",
     "acronym": "PHY",
     "objectId": 4,
-    "faculty": [
-      "Science"
-    ],
+    "faculty": ["Science"],
     "numFloors": 4,
     "builtYear": 1967,
     "servesFood": false,
-    "connectsTo": [
-      "E2",
-      "EIT"
-    ],
+    "connectsTo": ["E2", "EIT"],
     "blurb": "Physics is one of the older science buildings, but it carries serious bragging rights because Waterloo physicist Donna Strickland won the Nobel Prize while at the university. That makes it one of the more understatedly impressive academic buildings on campus."
   },
   {
     "name": "Pearl Sullivan Engineering Building",
     "acronym": "PSE",
     "objectId": 317,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 8,
     "builtYear": 2018,
     "servesFood": false,
@@ -730,25 +542,18 @@
     "name": "Quantum Nano Centre",
     "acronym": "QNC",
     "objectId": 129,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 6,
     "builtYear": 2012,
     "servesFood": false,
-    "connectsTo": [
-      "B2",
-      "MC"
-    ],
+    "connectsTo": ["B2", "MC"],
     "blurb": "QNC is one of Waterloo's signature research buildings and houses both quantum and nanotechnology research. It has underground labs to control vibration and a huge atrium with a floating staircase, so it genuinely looks as futuristic as people say."
   },
   {
     "name": "Research Advancement Centre",
     "acronym": "RAC",
     "objectId": 130,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 4,
     "builtYear": 2005,
     "servesFood": false,
@@ -759,25 +564,18 @@
     "name": "J.R. Coutts Engineering Lecture Hall",
     "acronym": "RCH",
     "objectId": 11,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 3,
     "builtYear": 1962,
     "servesFood": false,
-    "connectsTo": [
-      "DWE",
-      "E2"
-    ],
+    "connectsTo": ["DWE", "E2"],
     "blurb": "RCH is one of the main engineering lecture halls, so many engineers meet it in first year whether they want to or not. It is one of those buildings that becomes memorable mostly because of the number of hours you spend in lectures there."
   },
   {
     "name": "Ron Eydt Village",
     "acronym": "REV",
     "objectId": 279,
-    "faculty": [
-      "Residence"
-    ],
+    "faculty": ["Residence"],
     "numFloors": 3,
     "builtYear": 1970,
     "servesFood": true,
@@ -788,73 +586,51 @@
     "name": "South Campus Hall",
     "acronym": "SCH",
     "objectId": 16,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 2,
     "builtYear": 1968,
     "servesFood": true,
-    "connectsTo": [
-      "TC"
-    ],
+    "connectsTo": ["TC"],
     "blurb": "SCH is easy to underrate, but the food court here is a genuinely useful lunch option when SLC feels too busy. Because it sits near TC and the south-campus edge, it often saves more time than people expect."
   },
   {
     "name": "Student Life Centre",
     "acronym": "SLC",
     "objectId": 19,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 3,
     "builtYear": 1972,
     "servesFood": true,
-    "connectsTo": [
-      "MC",
-      "PAC"
-    ],
+    "connectsTo": ["MC", "PAC"],
     "blurb": "SLC is one of the most important buildings for actual student life: WUSA, clubs, food, study space, and the Turnkey Desk all run through here. It is open around the clock, so a lot of first-years end up treating it like the campus living room."
   },
   {
     "name": "Science Teaching Complex",
     "acronym": "STC",
     "objectId": 133,
-    "faculty": [
-      "Science"
-    ],
+    "faculty": ["Science"],
     "numFloors": 5,
     "builtYear": 2004,
     "servesFood": true,
-    "connectsTo": [
-      "B2",
-      "NH"
-    ],
+    "connectsTo": ["B2", "NH"],
     "blurb": "STC is a newer science building with a brighter, more modern feel than the older B and ESC buildings. For science students, it is one of the easier places to study between labs because it was built with student traffic in mind."
   },
   {
     "name": "William M. Tatham Centre for Co-operative Education & Career Action",
     "acronym": "TC",
     "objectId": 125,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 3,
     "builtYear": 1985,
     "servesFood": false,
-    "connectsTo": [
-      "AL",
-      "HH",
-      "SCH"
-    ],
+    "connectsTo": ["AL", "HH", "SCH"],
     "blurb": "The Tatham Centre is where co-op and career logistics become real, especially once interviews and advising start. Even if you are not job hunting yet, it is worth learning early because so much Waterloo admin and co-op energy flows through TC."
   },
   {
     "name": "Tutors' Houses",
     "acronym": "TH",
     "objectId": 48,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 2,
     "builtYear": 1962,
     "servesFood": false,
@@ -865,9 +641,7 @@
     "name": "Toby Jenkins Applied Health Research Building",
     "acronym": "TJB",
     "objectId": 140,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 2,
     "builtYear": 2015,
     "servesFood": false,
@@ -878,9 +652,7 @@
     "name": "University Club",
     "acronym": "UC",
     "objectId": 90,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 1,
     "builtYear": 1963,
     "servesFood": true,
@@ -891,9 +663,7 @@
     "name": "University of Waterloo Place",
     "acronym": "UWP",
     "objectId": 82,
-    "faculty": [
-      "Residence"
-    ],
+    "faculty": ["Residence"],
     "numFloors": 14,
     "builtYear": 1993,
     "servesFood": true,
@@ -904,9 +674,7 @@
     "name": "Student Village 1",
     "acronym": "V1",
     "objectId": 278,
-    "faculty": [
-      "Residence"
-    ],
+    "faculty": ["Residence"],
     "numFloors": 3,
     "builtYear": 1966,
     "servesFood": true,
@@ -917,42 +685,29 @@
     "name": "Centre for Integrated Manufacturing",
     "acronym": "CIM",
     "objectId": null,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 1,
     "builtYear": 1994,
     "servesFood": false,
-    "connectsTo": [
-      "DC",
-      "E3",
-      "EIT"
-    ],
+    "connectsTo": ["DC", "E3", "EIT"],
     "blurb": "CIM is not a building most first-years talk about much, but it sits in the engineering and research cluster near DC, E3, and EIT. Think of it as a specialized manufacturing and research space rather than a general classroom stop."
   },
   {
     "name": "Expansion",
     "acronym": "EXP",
     "objectId": 261,
-    "faculty": [
-      "Health"
-    ],
+    "faculty": ["Health"],
     "numFloors": 1,
     "builtYear": 2010,
     "servesFood": true,
-    "connectsTo": [
-      "BMH",
-      "LHI"
-    ],
+    "connectsTo": ["BMH", "LHI"],
     "blurb": "EXP is part of the Health cluster expansion beside BMH and LHI, so it is more useful as a Health landmark than as a campus-wide destination. If you spend time in Health, though, this corner starts to feel like its own mini-campus."
   },
   {
     "name": "St. Jerome's University",
     "acronym": "STJ",
     "objectId": 198,
-    "faculty": [
-      "University College"
-    ],
+    "faculty": ["University College"],
     "numFloors": 7,
     "builtYear": 1865,
     "servesFood": true,
@@ -963,9 +718,7 @@
     "name": "United College",
     "acronym": "UTD",
     "objectId": 285,
-    "faculty": [
-      "University College"
-    ],
+    "faculty": ["University College"],
     "numFloors": 7,
     "builtYear": 1962,
     "servesFood": true,
@@ -976,9 +729,7 @@
     "name": "Conrad Grebel University College",
     "acronym": "CRD",
     "objectId": 218,
-    "faculty": [
-      "University College"
-    ],
+    "faculty": ["University College"],
     "numFloors": 3,
     "builtYear": 1961,
     "servesFood": true,
@@ -989,9 +740,7 @@
     "name": "Renison University College",
     "acronym": "REN",
     "objectId": 206,
-    "faculty": [
-      "University College"
-    ],
+    "faculty": ["University College"],
     "numFloors": 3,
     "builtYear": 1959,
     "servesFood": true,
@@ -1002,9 +751,7 @@
     "name": "Architecture Annex Rome",
     "acronym": "AAR",
     "objectId": 176,
-    "faculty": [
-      "Engineering"
-    ],
+    "faculty": ["Engineering"],
     "numFloors": 1,
     "builtYear": 1979,
     "servesFood": false,
@@ -1015,9 +762,7 @@
     "name": "Brubacher House",
     "acronym": "BRH",
     "objectId": 160,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 2,
     "builtYear": 1850,
     "servesFood": false,
@@ -1028,9 +773,7 @@
     "name": "Central Services Building",
     "acronym": "CSB",
     "objectId": 12,
-    "faculty": [
-      "Other"
-    ],
+    "faculty": ["Other"],
     "numFloors": 1,
     "builtYear": 1990,
     "servesFood": false,

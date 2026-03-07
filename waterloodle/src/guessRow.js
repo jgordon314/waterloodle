@@ -4,8 +4,7 @@ import { Building } from "./Model/Building";
 
 export default function GuessRow({ building }) {
     const fields = [
-        building.name,
-        building.acronym,
+        building.name + " (" + building.acronym + ")",
         building.faculty,
         building.numFloors,
         building.builtYear,
@@ -25,9 +24,11 @@ export default function GuessRow({ building }) {
 
 const rowStyle = {
     display: "grid",
-    gridTemplateColumns: "repeat(6, 1fr)",
+    gridTemplateColumns: "repeat(5, 1fr)",
     gap: "0px",
-    width: "100%",
+    width: "99%",
+    margin: "1px",
+    alignItems: "center",
 };
 
 const cellContentStyle = {
@@ -39,7 +40,7 @@ const cellContentStyle = {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    padding: "0.25rem",
+    padding: "0rem",
     textAlign: "center",
     overflow: "hidden",
     wordBreak: "break-word",

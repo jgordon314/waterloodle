@@ -3,7 +3,7 @@
 */
 
 export class BuildingGraph{
-    buildings; // dictionary of building objects, with abbreviations as keys
+    buildings; // dictionary of building objects, with acronyms as keys
 
     constructor(){
         this.buildings = new Map();
@@ -18,7 +18,7 @@ export class BuildingGraph{
     }
 
     /*
-        Takes two Building abbreviations
+        Takes two Building acronyms
         and returns the minimum number of bridges that must be traversed between the buildings.
         If the buildings are not connected, returns -1.
         Throws an exception if either building is not present in buildings
@@ -60,10 +60,10 @@ export class BuildingGraph{
     }
 
     addBuilding(building){
-        this.buildings.set(building.abbr, building);
+        this.buildings.set(building.acronym, building);
     }
 
-    getBuildingByAbbr(abbr){
-        return this.buildings.get(abbr);
+    getBuildingByacronym(acronym){
+        return this.buildings.get(acronym);
     }
 }

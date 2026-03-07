@@ -7,12 +7,18 @@ function GameStartScreen({ onStartGame }) {
   const [isStarting, setIsStarting] = useState(false);
   const [showInstructions, setShowInstructions] = useState(false);
 
-  const handleStart = () => {
+  const handleStartDaily = () => {
     setIsStarting(true);
-    // Small delay so the animation can be seen
     setTimeout(() => {
-      onStartGame();
-    }, 500);
+      onStartGame(true);
+    }, 100);
+  };
+
+  const handleStartRandom = () => {
+    setIsStarting(true);
+    setTimeout(() => {
+      onStartGame(false);
+    }, 100);
   };
 
   return (
@@ -23,7 +29,7 @@ function GameStartScreen({ onStartGame }) {
         <div className="menu">
           <button
             className={`start-button`}
-            onClick={handleStart}
+            onClick={handleStartDaily}
             disabled={isStarting}
           >
             Play Daily
@@ -31,7 +37,7 @@ function GameStartScreen({ onStartGame }) {
 
           <button
             className={`start-button`}
-            onClick={handleStart}
+            onClick={handleStartRandom}
             disabled={isStarting}
           >
             Play Random

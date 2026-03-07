@@ -1,5 +1,4 @@
 import { Group, Panel, PanelResizeHandle } from "react-resizable-panels";
-import buildingData from "./testData";
 import { Building } from "./Model/Building";
 
 

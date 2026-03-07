@@ -12,7 +12,7 @@ function App() {
   };
 
   return (
-    <div className="app">
+    <div className="app" style={{height:"100vh"}}>
       {!gameStarted ? (
         <GameStartScreen onStartGame={onStartGame} />
       ) : (

@@ -6,3 +6,6 @@
 npm install
 npm start
 ```
+
+### Citations
+Generative AI including Grok was used for minor code creation and debugging.

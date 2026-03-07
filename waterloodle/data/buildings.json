@@ -1,0 +1,702 @@
+[
+  {
+    "name": "School of Architecture",
+    "acronym": "ARC",
+    "faculty": "NA",
+    "numFloors": 3,
+    "builtYear": 2004,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "Arts Lecture Hall",
+    "acronym": "AL",
+    "faculty": "NA",
+    "numFloors": 2,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["EV1", "ML", "TC"],
+    "blurb": ""
+  },
+  {
+    "name": "AVRIL",
+    "acronym": "AVR",
+    "faculty": "NA",
+    "numFloors": 1,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "Biology 1",
+    "acronym": "B1",
+    "faculty": "NA",
+    "numFloors": 3,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["B2", "ESC"],
+    "blurb": ""
+  },
+  {
+    "name": "Biology 2",
+    "acronym": "B2",
+    "faculty": "NA",
+    "numFloors": 3,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["B1", "QNC", "STC"],
+    "blurb": ""
+  },
+  {
+    "name": "Bauer Warehouse",
+    "acronym": "BAU",
+    "faculty": "NA",
+    "numFloors": 1,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "B.C. Matthews Hall",
+    "acronym": "BMH",
+    "faculty": "NA",
+    "numFloors": 4,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["EXP", "LHI"],
+    "blurb": ""
+  },
+  {
+    "name": "Lyle S. Hallman Institute for Health Promotion",
+    "acronym": "LHI",
+    "faculty": "NA",
+    "numFloors": 4,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["BMH", "EXP"],
+    "blurb": ""
+  },
+  {
+    "name": "Chemistry 2",
+    "acronym": "C2",
+    "faculty": "NA",
+    "numFloors": 4,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["DC", "ESC", "MC"],
+    "blurb": ""
+  },
+  {
+    "name": "Columbia Icefield",
+    "acronym": "CIF",
+    "faculty": "NA",
+    "numFloors": 1,
+    "builtYear": 1983,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "Columbia Lake Village",
+    "acronym": "CLV",
+    "faculty": "NA",
+    "numFloors": 2,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "Claudette Millar Hall",
+    "acronym": "CMH",
+    "faculty": "NA",
+    "numFloors": 13,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "Commissary",
+    "acronym": "COM",
+    "faculty": "NA",
+    "numFloors": 2,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "Carl A. Pollock Hall",
+    "acronym": "CPH",
+    "faculty": "NA",
+    "numFloors": 4,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["E2"],
+    "blurb": ""
+  },
+  {
+    "name": "William G. Davis Computer Research Centre",
+    "acronym": "DC",
+    "faculty": "NA",
+    "numFloors": 3,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["C2", "CIM", "M3", "MC"],
+    "blurb": ""
+  },
+  {
+    "name": "Digital Media Stratford",
+    "acronym": "DMS",
+    "faculty": "NA",
+    "numFloors": 3,
+    "builtYear": 2010,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "Douglas Wright Engineering Building",
+    "acronym": "DWE",
+    "faculty": "NA",
+    "numFloors": 3,
+    "builtYear": 1958,
+    "servesFood": false,
+    "connectsTo": ["E2", "RCH"],
+    "blurb": ""
+  },
+  {
+    "name": "Engineering 2",
+    "acronym": "E2",
+    "faculty": "NA",
+    "numFloors": 4,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["CPH", "DWE", "E3", "PHY", "RCH"],
+    "blurb": ""
+  },
+  {
+    "name": "Engineering 3",
+    "acronym": "E3",
+    "faculty": "NA",
+    "numFloors": 4,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["CIM", "E2", "E5"],
+    "blurb": ""
+  },
+  {
+    "name": "Engineering 5",
+    "acronym": "E5",
+    "faculty": "NA",
+    "numFloors": 6,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["E3", "E7"],
+    "blurb": ""
+  },
+  {
+    "name": "Engineering 6",
+    "acronym": "E6",
+    "faculty": "NA",
+    "numFloors": 6,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["E7"],
+    "blurb": ""
+  },
+  {
+    "name": "Engineering 7",
+    "acronym": "E7",
+    "faculty": "NA",
+    "numFloors": null,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["E5", "E6"],
+    "blurb": "Appears in the pasted roof-plan list, but no floor count was provided in the floor-plan section."
+  },
+  {
+    "name": "East Campus 1",
+    "acronym": "EC1",
+    "faculty": "NA",
+    "numFloors": 2,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "East Campus 2",
+    "acronym": "EC2",
+    "faculty": "NA",
+    "numFloors": 4,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "East Campus 3",
+    "acronym": "EC3",
+    "faculty": "NA",
+    "numFloors": 2,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "East Campus 4",
+    "acronym": "EC4",
+    "faculty": "NA",
+    "numFloors": 2,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "East Campus 5",
+    "acronym": "EC5",
+    "faculty": "NA",
+    "numFloors": 4,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "East Campus Hall",
+    "acronym": "ECH",
+    "faculty": "NA",
+    "numFloors": 2,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "Centre for Environmental and Information Technology",
+    "acronym": "EIT",
+    "faculty": "NA",
+    "numFloors": 7,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["CIM", "ESC", "PHY"],
+    "blurb": ""
+  },
+  {
+    "name": "Energy Research Centre",
+    "acronym": "ERC",
+    "faculty": "NA",
+    "numFloors": 3,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "Earth Sciences & Chemistry",
+    "acronym": "ESC",
+    "faculty": "NA",
+    "numFloors": 4,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["B1", "C2", "EIT"],
+    "blurb": ""
+  },
+  {
+    "name": "Environment 1",
+    "acronym": "EV1",
+    "faculty": "NA",
+    "numFloors": 5,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["AL", "EV2"],
+    "blurb": ""
+  },
+  {
+    "name": "Environment 2",
+    "acronym": "EV2",
+    "faculty": "NA",
+    "numFloors": 3,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["EV1", "EV3"],
+    "blurb": ""
+  },
+  {
+    "name": "Environment 3",
+    "acronym": "EV3",
+    "faculty": "NA",
+    "numFloors": 4,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["EV2"],
+    "blurb": ""
+  },
+  {
+    "name": "Federation Hall",
+    "acronym": "FED",
+    "faculty": "NA",
+    "numFloors": 1,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "335 Gage Ave.",
+    "acronym": "GA",
+    "faculty": "NA",
+    "numFloors": 1,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "Graduate House",
+    "acronym": "GH",
+    "faculty": "NA",
+    "numFloors": 2,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "General Services Complex",
+    "acronym": "GSC",
+    "faculty": "NA",
+    "numFloors": 2,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "J.G. Hagey Hall of the Humanities",
+    "acronym": "HH",
+    "faculty": "NA",
+    "numFloors": 4,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["PAS", "TC"],
+    "blurb": ""
+  },
+  {
+    "name": "Health Services",
+    "acronym": "HS",
+    "faculty": "NA",
+    "numFloors": 2,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "Integrated Health Building",
+    "acronym": "IHB",
+    "faculty": "NA",
+    "numFloors": 3,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "Dana Porter Library",
+    "acronym": "LIB",
+    "faculty": "NA",
+    "numFloors": 10,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "Mathematics 3",
+    "acronym": "M3",
+    "faculty": "NA",
+    "numFloors": 4,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["DC", "MC"],
+    "blurb": ""
+  },
+  {
+    "name": "Mathematics & Computer",
+    "acronym": "MC",
+    "faculty": "NA",
+    "numFloors": 6,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["C2", "DC", "M3", "QNC", "SLC"],
+    "blurb": ""
+  },
+  {
+    "name": "Minota Hagey Residence",
+    "acronym": "MHR",
+    "faculty": "NA",
+    "numFloors": 3,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "William Lyon Mackenzie King Village",
+    "acronym": "MKV",
+    "faculty": "NA",
+    "numFloors": 5,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "Modern Languages",
+    "acronym": "ML",
+    "faculty": "NA",
+    "numFloors": 3,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["AL"],
+    "blurb": ""
+  },
+  {
+    "name": "Ira G. Needles Hall",
+    "acronym": "NH",
+    "faculty": "NA",
+    "numFloors": 4,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["STC"],
+    "blurb": ""
+  },
+  {
+    "name": "Optometry",
+    "acronym": "OPT",
+    "faculty": "NA",
+    "numFloors": 4,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "Physical Activities Complex",
+    "acronym": "PAC",
+    "faculty": "NA",
+    "numFloors": 3,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["SLC"],
+    "blurb": ""
+  },
+  {
+    "name": "Psychology, Anthropology & Sociology",
+    "acronym": "PAS",
+    "faculty": "NA",
+    "numFloors": 5,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["HH"],
+    "blurb": ""
+  },
+  {
+    "name": "School of Pharmacy",
+    "acronym": "PHR",
+    "faculty": "NA",
+    "numFloors": 9,
+    "builtYear": 2008,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "Physics",
+    "acronym": "PHY",
+    "faculty": "NA",
+    "numFloors": 4,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["E2", "EIT"],
+    "blurb": ""
+  },
+  {
+    "name": "Pearl Sullivan Engineering Building",
+    "acronym": "PSE",
+    "faculty": "NA",
+    "numFloors": 8,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "Quantum Nano Centre",
+    "acronym": "QNC",
+    "faculty": "NA",
+    "numFloors": 6,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["B2", "MC"],
+    "blurb": ""
+  },
+  {
+    "name": "Research Advancement Centre",
+    "acronym": "RAC",
+    "faculty": "NA",
+    "numFloors": 4,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "Research Advancement Centre 2",
+    "acronym": "RA2",
+    "faculty": "NA",
+    "numFloors": 4,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "J.R. Coutts Engineering Lecture Hall",
+    "acronym": "RCH",
+    "faculty": "NA",
+    "numFloors": 3,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["DWE", "E2"],
+    "blurb": ""
+  },
+  {
+    "name": "Ron Eydt Village",
+    "acronym": "REV",
+    "faculty": "NA",
+    "numFloors": 3,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "South Campus Hall",
+    "acronym": "SCH",
+    "faculty": "NA",
+    "numFloors": 2,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["TC"],
+    "blurb": ""
+  },
+  {
+    "name": "Student Life Centre",
+    "acronym": "SLC",
+    "faculty": "NA",
+    "numFloors": 3,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["MC", "PAC"],
+    "blurb": ""
+  },
+  {
+    "name": "Science Teaching Complex",
+    "acronym": "STC",
+    "faculty": "NA",
+    "numFloors": 5,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["B2", "NH"],
+    "blurb": ""
+  },
+  {
+    "name": "William M. Tatham Centre for Co-operative Education & Career Action",
+    "acronym": "TC",
+    "faculty": "NA",
+    "numFloors": 3,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["AL", "HH", "SCH"],
+    "blurb": ""
+  },
+  {
+    "name": "Tutors' Houses",
+    "acronym": "TH",
+    "faculty": "NA",
+    "numFloors": 2,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "Toby Jenkins Applied Health Research Building",
+    "acronym": "TJB",
+    "faculty": "NA",
+    "numFloors": 2,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "University Club",
+    "acronym": "UC",
+    "faculty": "NA",
+    "numFloors": 1,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "University of Waterloo Place",
+    "acronym": "UWP",
+    "faculty": "NA",
+    "numFloors": 14,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "Student Village 1",
+    "acronym": "V1",
+    "faculty": "NA",
+    "numFloors": 3,
+    "builtYear": 1966,
+    "servesFood": false,
+    "connectsTo": [],
+    "blurb": ""
+  },
+  {
+    "name": "Centre for Integrated Manufacturing",
+    "acronym": "CIM",
+    "faculty": "NA",
+    "numFloors": null,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["DC", "E3", "EIT"],
+    "blurb": "Added from the supplied adjacency list; no floor-plan entry was provided in the supplied source."
+  },
+  {
+    "name": "Expansion",
+    "acronym": "EXP",
+    "faculty": "NA",
+    "numFloors": null,
+    "builtYear": null,
+    "servesFood": false,
+    "connectsTo": ["BMH", "LHI"],
+    "blurb": "Added from the supplied adjacency list; no floor-plan entry was provided in the supplied source."
+  }
+]

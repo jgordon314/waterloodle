@@ -1,1 +1,8 @@
 # enghacks_26
+### HOW TO RUN:
+1. Make sure you have node and npm
+2. In the waterloodle folder, run:
+```
+npm install
+npm start
+```

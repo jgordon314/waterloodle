@@ -1,17 +1,22 @@
-// App.jsx
 import { useState } from 'react';
 import GameStartScreen from './components/start';
+import MainScreen from './main';
 
 function App() {
   const [gameStarted, setGameStarted] = useState(false);
+  const [useDaily, setUseDaily] = useState(true);
+
+  const onStartGame = (isDaily) => {
+    setGameStarted(true);
+    setUseDaily(isDaily);
+  };
 
   return (
     <div className="app">
       {!gameStarted ? (
-        <GameStartScreen onStartGame={() => setGameStarted(true)} />
+        <GameStartScreen onStartGame={onStartGame} />
       ) : (
-        // <Game />
-        <p>meow</p>
+        <MainScreen useDaily={useDaily} />
       )}
     </div>
   );

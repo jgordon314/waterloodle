@@ -2,9 +2,8 @@ import { useState, useEffect } from "react";
 import { Group, Panel } from "react-resizable-panels";
 import GuessRow from "./guessRow.js";
 import buildingData from "./data/buildings.json";
-import WinModal from "./components/winModal.jsx";
-import { SearchBar } from "./SearchBar.jsx";
-import UWMap from "./components/UWMap.js";
+import WinModal from "./Components/winModal.jsx";
+import UWMap from "./Components/UWMap.js";
 
 function seededRandomGenerator(seed) {
   seed = (1664525 * seed + 1013904223) >>> 0;
@@ -12,24 +11,14 @@ function seededRandomGenerator(seed) {
 }
 
 function MainScreen({ useDaily, onRestart }) {
+  const now = new Date();
   const [buildingNum, setBuildingNum] = useState(0);
   const [guesses, setGuesses] = useState([]);
   const [showEndScreen, setShowEndScreen] = useState(false);
   const [isWin, setWin] = useState(false);
-
-  const maxGuesses = 8;
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 1300);
+  const [remainingGuesses, setRemainingGuesses] = useState(10);
 
   useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth < 1300);
-    };
-
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-  useEffect(() => {
-    const now = new Date();
     if (useDaily) {
       const seed =
         (now.getDate() + now.getMonth() * 31 + now.getFullYear() * 366 + 5) *
@@ -186,7 +175,7 @@ function MainScreen({ useDaily, onRestart }) {
         </div>
       </Panel>
 
-      <Panel defaultSize={isMobile ? 0 : 35} minSize={10}>
+      <Panel defaultSize={65} minSize={20}>
         <div
           style={{
             height: "100%",
@@ -203,7 +192,7 @@ function MainScreen({ useDaily, onRestart }) {
               textShadow: "0 0 8px rgba(255, 215, 0, 0.3)",
             }}
           >
-            Map
+            Map for {building.name}
           </h1>
           {/* Your map component / image / leaflet / etc goes here – unchanged */}
           <div
@@ -216,7 +205,7 @@ function MainScreen({ useDaily, onRestart }) {
               borderRadius: "6px",
             }}
           >
-            {/* Map content */}
+            <UWMap guessed={guesses} distances={new Map()}></UWMap>
           </div>
         </div>
       </Panel>

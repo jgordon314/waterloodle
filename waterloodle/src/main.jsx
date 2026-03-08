@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Group, Panel, PanelResizeHandle } from "react-resizable-panels";
+import { Group, Panel } from "react-resizable-panels";
 import GuessRow from "./guessRow.js";
 import buildingData from './data/buildings.json';
 import WinModal from './components/winModal.jsx';
@@ -10,14 +10,15 @@ function seededRandomGenerator(seed) {
 }
 
 function MainScreen({ useDaily, onRestart }) {
-    const now = new Date();
     const [buildingNum, setBuildingNum] = useState(0);
     const [guesses, setGuesses] = useState([]);
     const [showEndScreen, setShowEndScreen] = useState(false);
     const [isWin, setWin] = useState(false);
-    const [remainingGuesses, setRemainingGuesses] = useState(10);
+
+    const maxGuesses = 8;
 
     useEffect(() => {
+        const now = new Date();
         if (useDaily) {
             const seed = (now.getDate() + now.getMonth() * 31 + now.getFullYear() * 366 + 5) * 1000;
             setBuildingNum(Math.floor(seededRandomGenerator(seed) * buildingData.length));
@@ -34,17 +35,13 @@ function MainScreen({ useDaily, onRestart }) {
             if (lastGuess.name.toLowerCase() === building.name.toLowerCase() ||
                 lastGuess.acronym.toLowerCase() === building.acronym.toLowerCase()) {
                 setWin(true);
-                console.log('You win!');
                 setShowEndScreen(true);
-            } else if (remainingGuesses <= 1) {
+            } else if (maxGuesses - guesses.length <= 1) {
                 setWin(false);
-                console.log(remainingGuesses);
                 setShowEndScreen(true);
-            } else {
-                setRemainingGuesses(remainingGuesses - 1);
             }
         }
-    }, [guesses]);
+    }, [guesses, building]);
     
     const handleGiveUp = (e) => {
         setWin(false);
@@ -86,13 +83,14 @@ function MainScreen({ useDaily, onRestart }) {
                     color: '#ffd700',
                     borderRight: '1px solid #333'
                 }}>
-                    <div style={{display: 'flex', alignItems: 'center', marginBottom: '16px'}}>
+                    <div style={{display: 'flex', alignItems: 'center', marginBottom: '0px'}}>
                         <h1 style={{ 
                             color: '#ffd700',
                             margin: '0 0 16px 0',
+                            fontSize: '32px',
                             textShadow: '0 0 8px rgba(255, 215, 0, 0.4)'
                         }}>
-                            Guess
+                            Waterloodle
                         </h1>
                         <div style={{ flex: 1 }}></div>
                         <p style={{
@@ -100,11 +98,11 @@ function MainScreen({ useDaily, onRestart }) {
                             margin: '0 0 16px 0',
                             textShadow: '0 0 8px rgba(255, 215, 0, 0.4)'
                         }}>
-                            Remaining Guesses: {remainingGuesses}
+                            Remaining Guesses: {maxGuesses - guesses.length}
                         </p>
                     </div>
                     
-                    <form onSubmit={handleSubmit} style={{ margin: '12px 0' }}>
+                    <form onSubmit={handleSubmit} style={{ margin: '8px 0' }}>
                         <div style={{display: 'flex', alignItems: 'center', marginBottom: '16px'}}>
                             <input 
                                 type="text" 

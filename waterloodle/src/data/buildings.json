@@ -6,7 +6,7 @@
     "faculty": ["Arts"],
     "numFloors": 2,
     "builtYear": 1968,
-    "servesFood": false,
+    "servesFood": true,
     "connectsTo": ["EV1", "ML", "TC"],
     "blurb": "Arts Lecture Hall is one of the standard lecture-heavy buildings near the Arts and Environment side of campus. If your class is here, expect straightforward classrooms rather than fancy lounges or lab space."
   },
@@ -72,7 +72,7 @@
     "faculty": ["Other"],
     "numFloors": 1,
     "builtYear": 1983,
-    "servesFood": true,
+    "servesFood": false,
     "connectsTo": [],
     "blurb": "Columbia Icefield is where varsity hockey plays, but it is more than just the rink. The complex also includes gyms and fitness space, so it is worth knowing even if you never skate."
   },
@@ -116,7 +116,7 @@
     "faculty": ["Engineering"],
     "numFloors": 4,
     "builtYear": 1988,
-    "servesFood": false,
+    "servesFood": true,
     "connectsTo": ["E2", "DWE"],
     "blurb": "CPH is an engineering student hub as much as it is a classroom building. The EngSoc office, POETS, and one of the Engineering Society C&D counters are here, so it is worth knowing even if you only came for a lecture."
   },
@@ -160,7 +160,7 @@
     "faculty": ["Engineering"],
     "numFloors": 4,
     "builtYear": 1988,
-    "servesFood": true,
+    "servesFood": false,
     "connectsTo": ["DC", "E2", "E5"],
     "blurb": "E3 is a workhorse engineering building with classrooms, labs, and easy links into the rest of the engineering cluster. It is not the flashiest building, but plenty of students spend a lot of time here once design projects and upper-year courses kick in."
   },
@@ -183,7 +183,7 @@
     "numFloors": 6,
     "builtYear": 2003,
     "servesFood": false,
-    "connectsTo": ["E7"],
+    "connectsTo": ["PSE"],
     "blurb": "E6 is another modern engineering building with offices, classrooms, and project space packed into the east engineering cluster. It is a good building to know because it sits right beside E7 and ends up on a lot of engineering walking paths."
   },
   {
@@ -217,7 +217,7 @@
     "builtYear": 2002,
     "servesFood": true,
     "connectsTo": ["DC", "ESC", "PHY"],
-    "blurb": "EIT is one of the coolest buildings to show visitors because it houses the Earth Sciences Museum and its big atrium displays. If you want a first-year tip, the museum, rock garden, and geology exhibits make this an unexpectedly fun study-break stop."
+    "blurb": "EIT is one of the coolest buildings to show visitors because it houses the Earth Sciences Museum and its big atrium displays. If you want a tip, the museum, rock garden, and geology exhibits make this an unexpectedly fun study-break stop."
   },
   {
     "name": "Energy Research Centre",
@@ -393,7 +393,7 @@
     "builtYear": 1968,
     "servesFood": true,
     "connectsTo": ["AL"],
-    "blurb": "Modern Languages is the building with the Porcellino boar statue outside, which became an Arts mascot and a campus photo landmark. Even if you never study languages, you will probably use the boar as a meeting point at some point."
+    "blurb": "Modern Languages is the building with the Porcellino boar statue outside, which became an Arts mascot and a campus photo landmark. Go down to it's basement to find ML's Diner and a Tim Horton's."
   },
   {
     "name": "Ira G. Needles Hall",
@@ -424,9 +424,9 @@
     "faculty": ["Other"],
     "numFloors": 3,
     "builtYear": 1969,
-    "servesFood": true,
+    "servesFood": false,
     "connectsTo": ["SLC"],
-    "blurb": "PAC is one of the core recreation buildings, with gyms, courts, and the pool all feeding into student life. Since it connects to SLC, it is also part of one of the most useful indoor routes on campus."
+    "blurb": "PAC is one of the core recreation buildings, with gyms, courts, and the pool all accessible for free using your WatCard. Since it connects to SLC, it is also part of one of the most useful indoor routes on campus."
   },
   {
     "name": "Psychology, Anthropology & Sociology",
@@ -457,9 +457,9 @@
     "faculty": ["Engineering"],
     "numFloors": 8,
     "builtYear": 2018,
-    "servesFood": false,
+    "servesFood": true,
     "connectsTo": [],
-    "blurb": "Pearl Sullivan Engineering Building is the formal name attached to the PSE complex in some university and GIS sources. If you hear PSE and feel confused, the practical answer is that people usually mean the same modern engineering hub beside E5 and E6."
+    "blurb": "Pearl Sullivan Engineering Building is the new name for the E7 building. Named after the former dean of Engineering, it houses many lecture halls and study spaces, as well as one of the Engineering Societies Coffee and Donut shops."
   },
   {
     "name": "Quantum Nano Centre",
@@ -578,7 +578,7 @@
     "faculty": ["Other"],
     "numFloors": 1,
     "builtYear": 1963,
-    "servesFood": true,
+    "servesFood": false,
     "connectsTo": [],
     "blurb": "The University Club is more faculty, staff, and event space than everyday undergraduate territory. Most first-years know it mainly as one of those buildings that looks important but rarely appears on their schedule."
   },

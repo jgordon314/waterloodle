@@ -217,26 +217,10 @@ function MainScreen({ useDaily, onRestart }) {
                     padding: '16px',
                     boxSizing: 'border-box',
                     backgroundColor: '#000000',
-                    color: '#ffd700'
+                    color: '#ffd700',
+                    verticalAlign: 'center'
                 }}>
-                    <h1 style={{ 
-                        margin: '0 0 16px 0',
-                        color: '#ffd700',
-                        textShadow: '0 0 8px rgba(255, 215, 0, 0.3)'
-                    }}>
-                        Map
-                    </h1>
-                    {/* Your map component / image / leaflet / etc goes here – unchanged */}
-                    <div style={{ 
-                        height: 'calc(100% - 40px)', 
-                        background: '#111', 
-                        marginTop: '12px',
-                        overflow: 'hidden',
-                        border: '1px solid #333',
-                        borderRadius: '6px'
-                    }}>
                     <UWMap guessed={guesses} distances={new Map()}></UWMap>
-                    </div>
                 </div>
             </Panel>
             <WinModal isOpen={showEndScreen} onClose={onRestart} isWin={isWin} history={guesses} target={building} />

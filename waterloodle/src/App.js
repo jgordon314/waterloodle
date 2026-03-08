@@ -13,10 +13,6 @@ function App() {
     setUseDaily(isDaily);
   };
 
-  const [graph, setGraph] = useState(new BuildingGraph([]));
-  const [distances, setDistances] = useState(new Map());
-  const [guesses, setGuesses] = useState([]);
-
   return (
     <div className="app" style={{ height: "100vh" }}>
       {!gameStarted ? (

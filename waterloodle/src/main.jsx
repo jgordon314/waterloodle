@@ -4,6 +4,7 @@ import GuessRow from "./guessRow.js";
 import buildingData from './data/buildings.json';
 import WinModal from './Components/winModal.jsx';
 import UWMap from './Components/UWMap.js';
+import { BuildingGraph } from './Model/BuildingGraph.js';
 
 function seededRandomGenerator(seed) {
     seed = (1664525 * seed + 1013904223) >>> 0;
@@ -17,6 +18,9 @@ function MainScreen({ useDaily, onRestart }) {
     const [showEndScreen, setShowEndScreen] = useState(false);
     const [isWin, setWin] = useState(false);
     const [remainingGuesses, setRemainingGuesses] = useState(10);
+    const [distances, setDistances] = useState([]);
+    const graph = new BuildingGraph(buildingData);
+    const building = buildingData[buildingNum];
 
     useEffect(() => {
         if (useDaily) {
@@ -26,8 +30,11 @@ function MainScreen({ useDaily, onRestart }) {
             setBuildingNum(Math.floor(Math.random() * buildingData.length));
         }
     }, [useDaily]);
-    
-    const building = buildingData[buildingNum];
+
+    useEffect(() => {
+        setDistances(graph.getDistances(buildingData[buildingNum].acronym));
+    }, [buildingNum]);
+
 
     useEffect(() => {
         if (guesses.length > 0) {
@@ -224,7 +231,7 @@ function MainScreen({ useDaily, onRestart }) {
                         border: '1px solid #333',
                         borderRadius: '6px'
                     }}>
-                    <UWMap guessed={guesses} distances={new Map()}></UWMap>
+                    <UWMap guessed={guesses} distances={distances}></UWMap>
                     </div>
                 </div>
             </Panel>

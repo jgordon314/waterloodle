@@ -1,6 +1,6 @@
-import { useState } from 'react';
-import GameStartScreen from './components/start';
-import MainScreen from './main';
+import { useState } from "react";
+import GameStartScreen from "./components/start";
+import MainScreen from "./main";
 
 function App() {
   const [gameStarted, setGameStarted] = useState(false);
@@ -12,7 +12,7 @@ function App() {
   };
 
   return (
-    <div className="app" style={{height:"100vh"}}>
+    <div className="app" style={{ height: "100vh" }}>
       {!gameStarted ? (
         <GameStartScreen onStartGame={onStartGame} />
       ) : (

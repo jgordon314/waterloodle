@@ -28,6 +28,24 @@ function MainScreen({ useDaily, onRestart }) {
     
     const building = buildingData[buildingNum];
 
+    useEffect(() => {
+        if (guesses.length > 0) {
+            const lastGuess = guesses[0];
+            if (lastGuess.name.toLowerCase() === building.name.toLowerCase() ||
+                lastGuess.acronym.toLowerCase() === building.acronym.toLowerCase()) {
+                setWin(true);
+                console.log('You win!');
+                setShowEndScreen(true);
+            } else if (remainingGuesses <= 1) {
+                setWin(false);
+                console.log(remainingGuesses);
+                setShowEndScreen(true);
+            } else {
+                setRemainingGuesses(remainingGuesses - 1);
+            }
+        }
+    }, [guesses]);
+    
     const handleGiveUp = (e) => {
         setWin(false);
         setShowEndScreen(true);
@@ -43,17 +61,6 @@ function MainScreen({ useDaily, onRestart }) {
                 }
                 break;
             }
-        }
-        if (building.name.toLowerCase() === e.target[0].value.toLowerCase() ||
-            building.acronym.toLowerCase() === e.target[0].value.toLowerCase()) {
-            setWin(true);
-            setShowEndScreen(true);
-        } else {
-            if(remainingGuesses <= 1) {
-                setWin(false);
-                setShowEndScreen(true);
-            }
-            setRemainingGuesses(remainingGuesses - 1);
         }
         
         e.target[0].value = "";

@@ -1,4 +1,3 @@
-import { ReactComponent as Mapdata} from './polygons.js'
 import { polygons } from './polygons.js';
 
 export default function UWMap({ guessed, distances}){ 
@@ -9,7 +8,7 @@ export default function UWMap({ guessed, distances}){
             <image href="/uwmap.png"></image>
             {polygons.map(({ id, points }) => {
                 // If guessed, use fillColors[id], else transparent
-                const fill = guessed.includes(id) ? (distances.get(id) == -1? "red": `oklch(0.7 ${0.1669 + (distances.get(id) ?? 0) / 100} 95.65)`): "transparent"; //TODO: vary shades of yellow by distance
+                const fill = guessed.find((g) => g.acronym == id) ? (distances.get(id) == -1? "red": `oklch(0.7 ${0.1669 + (distances.get(id) ?? 0) / 100} 95.65)`): "transparent"; //TODO: vary shades of yellow by distance
 
                 return (
                 <polygon
@@ -20,7 +19,7 @@ export default function UWMap({ guessed, distances}){
                     stroke="black"
                     strokeWidth={1}
                     style={{ cursor: "pointer" }}
-                    onClick={() => {console.log("clicked region: " + id); guessed.push(id)}}    
+                    onClick={() => {console.log("clicked region: " + id)}}    
                 />
                 );
             })}

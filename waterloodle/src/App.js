@@ -1,12 +1,10 @@
 import { useState } from "react";
-import GameStartScreen from "./components/start";
+import GameStartScreen from "./Components/start.jsx"
 import MainScreen from "./main";
-import UWMap from './Components/UWMap';
 import { BuildingGraph } from './Model/BuildingGraph';
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function App() {  
   const [gameStarted, setGameStarted] = useState(false);
   const [useDaily, setUseDaily] = useState(true);
 

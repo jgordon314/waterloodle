@@ -2,7 +2,8 @@ import { useState, useEffect } from 'react';
 import { Group, Panel, PanelResizeHandle } from "react-resizable-panels";
 import GuessRow from "./guessRow.js";
 import buildingData from './data/buildings.json';
-import WinModal from './components/winModal.jsx';
+import WinModal from './Components/winModal.jsx';
+import UWMap from './Components/UWMap.js';
 
 function seededRandomGenerator(seed) {
     seed = (1664525 * seed + 1013904223) >>> 0;
@@ -223,7 +224,7 @@ function MainScreen({ useDaily, onRestart }) {
                         border: '1px solid #333',
                         borderRadius: '6px'
                     }}>
-                        {/* Map content */}
+                    <UWMap guessed={guesses} distances={new Map()}></UWMap>
                     </div>
                 </div>
             </Panel>

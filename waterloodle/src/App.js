@@ -1,7 +1,6 @@
 import { useState } from "react";
 import GameStartScreen from "./components/start.jsx"
 import MainScreen from "./main";
-import { BuildingGraph } from './Model/BuildingGraph';
 import './App.css';
 
 function App() {  

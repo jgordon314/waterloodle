@@ -1,8 +1,10 @@
 import { useState } from "react";
-import GameStartScreen from "./components/start";
+import GameStartScreen from "./Components/start.jsx"
 import MainScreen from "./main";
+import { BuildingGraph } from './Model/BuildingGraph';
+import './App.css';
 
-function App() {
+function App() {  
   const [gameStarted, setGameStarted] = useState(false);
   const [useDaily, setUseDaily] = useState(true);
 
@@ -10,6 +12,10 @@ function App() {
     setGameStarted(true);
     setUseDaily(isDaily);
   };
+
+  const [graph, setGraph] = useState(new BuildingGraph([]));
+  const [distances, setDistances] = useState(new Map());
+  const [guesses, setGuesses] = useState([]);
 
   return (
     <div className="app" style={{ height: "100vh" }}>

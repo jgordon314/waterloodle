@@ -6,7 +6,7 @@ import InstructionPopup from './instructions.jsx'
 function GameStartScreen({ onStartGame }) {
   const [isStarting, setIsStarting] = useState(false);
   const [showInstructions, setShowInstructions] = useState(false);
-
+  
   const handleStartDaily = () => {
     setIsStarting(true);
     setTimeout(() => {

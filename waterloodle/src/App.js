@@ -16,7 +16,7 @@ function App() {
       {!gameStarted ? (
         <GameStartScreen onStartGame={onStartGame} />
       ) : (
-        <MainScreen useDaily={useDaily} />
+        <MainScreen useDaily={useDaily} onRestart={() => {setGameStarted(false)}} />
       )}
     </div>
   );

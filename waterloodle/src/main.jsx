@@ -16,7 +16,16 @@ function MainScreen({ useDaily, onRestart }) {
     const [isWin, setWin] = useState(false);
 
     const maxGuesses = 8;
+    const [isMobile, setIsMobile] = useState(window.innerWidth < 1300);
 
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth < 1300);
+        };
+
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
     useEffect(() => {
         const now = new Date();
         if (useDaily) {
@@ -65,14 +74,14 @@ function MainScreen({ useDaily, onRestart }) {
 
     return (
         <Group
-            direction="vertical" 
             style={{ 
-                height: '100vh', 
+                height: '100vh',
+                width: '100%',
                 overflow: 'hidden',
-                backgroundColor: '#000000'
+                backgroundColor: '#000000',
             }}
         >
-            <Panel defaultSize={35} minSize={30}>
+            <Panel defaultSize={35} minSize={15}>
                 <div style={{ 
                     height: '100%',
                     display: 'flex',
@@ -87,14 +96,15 @@ function MainScreen({ useDaily, onRestart }) {
                         <h1 style={{ 
                             color: '#ffd700',
                             margin: '0 0 16px 0',
-                            fontSize: '32px',
-                            textShadow: '0 0 8px rgba(255, 215, 0, 0.4)'
+                            fontSize: '5vh',
+                            textShadow: '0 0 8px rgba(255, 215, 0, 0.4)',
                         }}>
                             Waterloodle
                         </h1>
                         <div style={{ flex: 1 }}></div>
                         <p style={{
                             color: '#ffd700',
+                            fontSize: '2vh',
                             margin: '0 0 16px 0',
                             textShadow: '0 0 8px rgba(255, 215, 0, 0.4)'
                         }}>
@@ -114,7 +124,7 @@ function MainScreen({ useDaily, onRestart }) {
                                     color: '#ffd700',
                                     border: '1px solid #444',
                                     borderRadius: '4px',
-                                    fontSize: '16px',
+                                    fontSize: '2vh',
                                     outline: 'none'
                                 }}
                             />
@@ -126,6 +136,7 @@ function MainScreen({ useDaily, onRestart }) {
                                     backgroundColor: '#b8860b',
                                     color: '#000',
                                     border: 'none',
+                                    fontSize: '2vh',
                                     borderRadius: '4px',
                                     fontWeight: 'bold',
                                     cursor: 'pointer',
@@ -145,6 +156,7 @@ function MainScreen({ useDaily, onRestart }) {
                                     color: '#000',
                                     border: 'none',
                                     borderRadius: '4px',
+                                    fontSize: '2vh',
                                     fontWeight: 'bold',
                                     cursor: 'pointer',
                                     transition: 'background-color 0.2s',
@@ -170,6 +182,7 @@ function MainScreen({ useDaily, onRestart }) {
                         <thead>
                             <tr style={{ 
                                 backgroundColor: '#1a1a1a',
+                                fontSize: '2vh',
                                 borderBottom: '2px solid #444'
                             }}>
                                 <th style={{ padding: '10px', textAlign: 'center' }}>Building</th>
@@ -197,7 +210,7 @@ function MainScreen({ useDaily, onRestart }) {
                 </div>
             </Panel>
 
-            <Panel defaultSize={65} minSize={20}>
+            <Panel defaultSize={isMobile ? 0 : 35} minSize={10}>
                 <div style={{ 
                     height: '100%',
                     padding: '16px',
@@ -210,7 +223,7 @@ function MainScreen({ useDaily, onRestart }) {
                         color: '#ffd700',
                         textShadow: '0 0 8px rgba(255, 215, 0, 0.3)'
                     }}>
-                        Map for {building.name}
+                        Map
                     </h1>
                     {/* Your map component / image / leaflet / etc goes here – unchanged */}
                     <div style={{ 

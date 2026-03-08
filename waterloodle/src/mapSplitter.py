@@ -9,7 +9,7 @@ Prompts:
 import cv2
 import numpy as np
 
-img = cv2.imread("../data/uwmap.png")
+img = cv2.imread("betterMap.png")
 h, w = img.shape[:2]
 
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -51,5 +51,5 @@ for i, poly in enumerate(polygons):
 
 svg.append("</svg>")
 
-with open("../data/map.svg","w") as f:
+with open("map.svg","w") as f:
     f.write("\n".join(svg))

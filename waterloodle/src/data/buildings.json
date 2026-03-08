@@ -1,36 +1,14 @@
 [
   {
-    "name": "School of Architecture",
-    "acronym": "ARC",
-    "objectId": 126,
-    "faculty": ["Engineering"],
-    "numFloors": 3,
-    "builtYear": 2004,
-    "servesFood": false,
-    "connectsTo": [],
-    "blurb": "Waterloo Architecture is based in Cambridge on the Grand River rather than the main campus. A useful thing to know is that fourth-year architecture students can also study at the school's Rome studio in Trastevere."
-  },
-  {
     "name": "Arts Lecture Hall",
     "acronym": "AL",
     "objectId": 9,
-    "faculty": ["Other"],
+    "faculty": ["Arts"],
     "numFloors": 2,
     "builtYear": 1968,
     "servesFood": false,
     "connectsTo": ["EV1", "ML", "TC"],
     "blurb": "Arts Lecture Hall is one of the standard lecture-heavy buildings near the Arts and Environment side of campus. If your class is here, expect straightforward classrooms rather than fancy lounges or lab space."
-  },
-  {
-    "name": "AVRIL",
-    "acronym": "AVR",
-    "objectId": 284,
-    "faculty": ["Other"],
-    "numFloors": 1,
-    "builtYear": 2019,
-    "servesFood": false,
-    "connectsTo": [],
-    "blurb": "AVRIL is part of Waterloo's autonomous vehicle and robotics ecosystem, so most students only end up here through specialized labs, projects, or research. It is more of a destination building than an everyday first-year stop."
   },
   {
     "name": "Biology 1",
@@ -53,17 +31,6 @@
     "servesFood": false,
     "connectsTo": ["B1", "QNC", "STC"],
     "blurb": "Biology 2 sits in the science cluster beside STC and QNC, so it often ends up on busy class routes between older and newer science buildings. If you are in science, you will probably pass through here long before you remember where every lecture is."
-  },
-  {
-    "name": "Bauer Warehouse",
-    "acronym": "BAU",
-    "objectId": 102,
-    "faculty": ["Other"],
-    "numFloors": 1,
-    "builtYear": 1992,
-    "servesFood": false,
-    "connectsTo": [],
-    "blurb": "Bauer Warehouse is mostly support and storage space rather than a student hangout. Most first-years will only notice it if a club, event, or behind-the-scenes operation pulls them over to that side of campus."
   },
   {
     "name": "B.C. Matthews Hall",
@@ -91,7 +58,7 @@
     "name": "Chemistry 2",
     "acronym": "C2",
     "objectId": 91,
-    "faculty": ["Other"],
+    "faculty": ["Science"],
     "numFloors": 4,
     "builtYear": 1971,
     "servesFood": false,
@@ -150,7 +117,7 @@
     "numFloors": 4,
     "builtYear": 1988,
     "servesFood": false,
-    "connectsTo": ["E2"],
+    "connectsTo": ["E2", "DWE"],
     "blurb": "CPH is an engineering student hub as much as it is a classroom building. The EngSoc office, POETS, and one of the Engineering Society C&D counters are here, so it is worth knowing even if you only came for a lecture."
   },
   {
@@ -161,19 +128,8 @@
     "numFloors": 3,
     "builtYear": 1993,
     "servesFood": true,
-    "connectsTo": ["C2", "CIM", "M3", "MC"],
+    "connectsTo": ["C2", "E3", "M3", "MC"],
     "blurb": "DC is a major study building because it houses the Davis Centre Library for engineering, math, and science. The Waterloo Computer Museum has also used display space here, so it is one of the few buildings where serious study and old hardware nostalgia overlap."
-  },
-  {
-    "name": "Digital Media Stratford",
-    "acronym": "DMS",
-    "objectId": 134,
-    "faculty": ["Other"],
-    "numFloors": 3,
-    "builtYear": 2010,
-    "servesFood": false,
-    "connectsTo": [],
-    "blurb": "Digital Media Stratford is Waterloo's Stratford campus, so it is off the main campus and tied to interaction design and digital media programs. For most students it is more of a program-specific satellite than a building you casually wander into."
   },
   {
     "name": "Douglas Wright Engineering Building",
@@ -183,7 +139,7 @@
     "numFloors": 3,
     "builtYear": 1958,
     "servesFood": false,
-    "connectsTo": ["E2", "RCH"],
+    "connectsTo": ["E2", "RCH", "CPH"],
     "blurb": "Douglas Wright Engineering is the oldest building erected for the university, which makes it a real piece of Waterloo history. It started life as the original engineering building, so it still feels like old-school Waterloo engineering in the best way."
   },
   {
@@ -205,7 +161,7 @@
     "numFloors": 4,
     "builtYear": 1988,
     "servesFood": true,
-    "connectsTo": ["CIM", "E2", "E5"],
+    "connectsTo": ["DC", "E2", "E5"],
     "blurb": "E3 is a workhorse engineering building with classrooms, labs, and easy links into the rest of the engineering cluster. It is not the flashiest building, but plenty of students spend a lot of time here once design projects and upper-year courses kick in."
   },
   {
@@ -216,8 +172,8 @@
     "numFloors": 6,
     "builtYear": 2018,
     "servesFood": false,
-    "connectsTo": ["E3", "E7"],
-    "blurb": "E5 is one of the newer engineering buildings and usually feels a bit cleaner and more modern than the older core. If you are moving between E3 and E7 a lot, this building quickly becomes part of your default route."
+    "connectsTo": ["E3", "PSE"],
+    "blurb": "E5 is one of the newer engineering buildings and usually feels a bit cleaner and more modern than the older core. If you are moving between E3 and PSE a lot, this building quickly becomes part of your default route."
   },
   {
     "name": "Engineering 6",
@@ -229,17 +185,6 @@
     "servesFood": false,
     "connectsTo": ["E7"],
     "blurb": "E6 is another modern engineering building with offices, classrooms, and project space packed into the east engineering cluster. It is a good building to know because it sits right beside E7 and ends up on a lot of engineering walking paths."
-  },
-  {
-    "name": "Engineering 7",
-    "acronym": "E7",
-    "objectId": 317,
-    "faculty": ["Engineering"],
-    "numFloors": 7,
-    "builtYear": 2017,
-    "servesFood": true,
-    "connectsTo": ["E5", "E6"],
-    "blurb": "E7 is the modern engineering showcase building and one of the easier places on campus to find bright study space. The Engineering Society runs a C&D on the first floor, so it is also a practical snack stop instead of just a pretty building."
   },
   {
     "name": "East Campus 1-5",
@@ -256,7 +201,7 @@
     "name": "East Campus Hall",
     "acronym": "ECH",
     "objectId": 99,
-    "faculty": ["Other"],
+    "faculty": ["Arts"],
     "numFloors": 2,
     "builtYear": 1990,
     "servesFood": false,
@@ -271,7 +216,7 @@
     "numFloors": 7,
     "builtYear": 2002,
     "servesFood": true,
-    "connectsTo": ["CIM", "ESC", "PHY"],
+    "connectsTo": ["DC", "ESC", "PHY"],
     "blurb": "EIT is one of the coolest buildings to show visitors because it houses the Earth Sciences Museum and its big atrium displays. If you want a first-year tip, the museum, rock garden, and geology exhibits make this an unexpectedly fun study-break stop."
   },
   {
@@ -289,7 +234,7 @@
     "name": "Earth Sciences & Chemistry",
     "acronym": "ESC",
     "objectId": 6,
-    "faculty": ["Other"],
+    "faculty": ["Science"],
     "numFloors": 4,
     "builtYear": 1972,
     "servesFood": false,
@@ -385,17 +330,6 @@
     "blurb": "Health Services is one of the buildings you hope you never need in a rush, which is exactly why you should know where it is early. Finding it once at the start of term is smarter than trying to locate it while sick."
   },
   {
-    "name": "Integrated Health Building",
-    "acronym": "IHB",
-    "objectId": 131,
-    "faculty": ["Other"],
-    "numFloors": 3,
-    "builtYear": 2023,
-    "servesFood": false,
-    "connectsTo": [],
-    "blurb": "The Integrated Health Building is one of the newest additions to the Health precinct and brings multiple health disciplines closer together. It still feels new enough that some upper-years will know the older route descriptions better than the current ones."
-  },
-  {
     "name": "Dana Porter Library",
     "acronym": "DP",
     "objectId": 8,
@@ -454,7 +388,7 @@
     "name": "Modern Languages",
     "acronym": "ML",
     "objectId": 5,
-    "faculty": ["Other"],
+    "faculty": ["Arts"],
     "numFloors": 3,
     "builtYear": 1968,
     "servesFood": true,
@@ -506,17 +440,6 @@
     "blurb": "PAS handles a huge amount of Arts and social science traffic, so many students meet it early even if it is not their faculty home. It is a very normal place to have an unexpectedly large first-year elective."
   },
   {
-    "name": "School of Pharmacy",
-    "acronym": "PHR",
-    "objectId": 128,
-    "faculty": ["Science"],
-    "numFloors": 9,
-    "builtYear": 2008,
-    "servesFood": false,
-    "connectsTo": [],
-    "blurb": "The School of Pharmacy is on Waterloo's Kitchener health campus rather than the main campus, and the building was designed by Siamak Hariri. For most undergrads it is a reminder that Waterloo is spread across more of the region than the main ring road suggests."
-  },
-  {
     "name": "Physics",
     "acronym": "PHY",
     "objectId": 4,
@@ -531,18 +454,18 @@
     "name": "Pearl Sullivan Engineering Building",
     "acronym": "PSE",
     "objectId": 317,
-    "faculty": ["Other"],
+    "faculty": ["Engineering"],
     "numFloors": 8,
     "builtYear": 2018,
     "servesFood": false,
     "connectsTo": [],
-    "blurb": "Pearl Sullivan Engineering Building is the formal name attached to the E7 complex in some university and GIS sources. If you hear PSE and feel confused, the practical answer is that people usually mean the same modern engineering hub beside E5 and E6."
+    "blurb": "Pearl Sullivan Engineering Building is the formal name attached to the PSE complex in some university and GIS sources. If you hear PSE and feel confused, the practical answer is that people usually mean the same modern engineering hub beside E5 and E6."
   },
   {
     "name": "Quantum Nano Centre",
     "acronym": "QNC",
     "objectId": 129,
-    "faculty": ["Other"],
+    "faculty": ["Science"],
     "numFloors": 6,
     "builtYear": 2012,
     "servesFood": false,
@@ -564,7 +487,7 @@
     "name": "J.R. Coutts Engineering Lecture Hall",
     "acronym": "RCH",
     "objectId": 11,
-    "faculty": ["Other"],
+    "faculty": ["Engineering"],
     "numFloors": 3,
     "builtYear": 1962,
     "servesFood": false,
@@ -671,7 +594,7 @@
     "blurb": "UWP is Waterloo's largest residence village and has a suite-style setup, so it feels more like shared apartment living than a classic dorm. It is also well placed near Waterloo Park, University Plaza, and the ION, which makes it convenient in ways first-years do not always appreciate right away."
   },
   {
-    "name": "Student Village 1",
+    "name": "Villages 1",
     "acronym": "V1",
     "objectId": 278,
     "faculty": ["Residence"],
@@ -680,17 +603,6 @@
     "servesFood": true,
     "connectsTo": [],
     "blurb": "Village 1 was Waterloo's first residence, opening in 1966, and it still defines the classic first-year dorm experience on campus. Mudie's, the 24-hour front desk, and the Residence IT desk in the community centre make it one of the most useful places to know even if you do not live there."
-  },
-  {
-    "name": "Centre for Integrated Manufacturing",
-    "acronym": "CIM",
-    "objectId": null,
-    "faculty": ["Other"],
-    "numFloors": 1,
-    "builtYear": 1994,
-    "servesFood": false,
-    "connectsTo": ["DC", "E3", "EIT"],
-    "blurb": "CIM is not a building most first-years talk about much, but it sits in the engineering and research cluster near DC, E3, and EIT. Think of it as a specialized manufacturing and research space rather than a general classroom stop."
   },
   {
     "name": "Expansion",
@@ -746,17 +658,6 @@
     "servesFood": true,
     "connectsTo": [],
     "blurb": "Renison is an affiliated college with residence, academics, and a smaller community feel right beside main campus. Like the other colleges, it is also known among students as one of the better places to eat."
-  },
-  {
-    "name": "Architecture Annex Rome",
-    "acronym": "AAR",
-    "objectId": 176,
-    "faculty": ["Engineering"],
-    "numFloors": 1,
-    "builtYear": 1979,
-    "servesFood": false,
-    "connectsTo": [],
-    "blurb": "Architecture students can study in Rome through Waterloo's Trastevere studio, which is one of the more distinctive off-campus opportunities in the whole university. AAR matters mostly as a reminder that Waterloo Architecture is unusually international for an undergraduate program."
   },
   {
     "name": "Brubacher House",

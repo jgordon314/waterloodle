@@ -4,7 +4,7 @@ import GuessRow from "./guessRow.js";
 import buildingData from "./data/buildings.json";
 import WinModal from "./components/winModal.jsx";
 import UWMap from "./components/UWMap.js";
-import {SearchBar} from "./SearchBar.jsx";
+import { SearchBar } from "./SearchBar.jsx";
 
 function seededRandomGenerator(seed) {
   seed = (1664525 * seed + 1013904223) >>> 0;
@@ -178,16 +178,17 @@ function MainScreen({ useDaily, onRestart }) {
 
       <Panel defaultSize={65} minSize={20}>
         <div
-            style={{
-              flex: 1,
-              overflowY: "auto",
-              border: "1px solid #444",
-              borderRadius: "6px",
-              backgroundColor: "#0d0d0d",
-              padding: "4px",
-              maxheight: "100%"
-            }}>
-            <UWMap guessed={guesses} distances={new Map()}></UWMap>
+          style={{
+            flex: 1,
+            overflowY: "auto",
+            border: "1px solid #444",
+            borderRadius: "6px",
+            backgroundColor: "#0d0d0d",
+            padding: "4px",
+            maxheight: "100%",
+          }}
+        >
+          <UWMap guessed={guesses} distances={new Map()}></UWMap>
         </div>
       </Panel>
       <WinModal

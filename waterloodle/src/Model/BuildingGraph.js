@@ -5,10 +5,6 @@
 export class BuildingGraph{
     buildings; // dictionary of building objects, with acronyms as keys
 
-    constructor(){
-        this.buildings = new Map();
-    }
-
     constructor(buildings){ //initializes the graph from an array of Building objects
         this.buildings = new Map();
 
@@ -25,17 +21,17 @@ export class BuildingGraph{
     */
     bridgeDistance(start, finish){
         // BFS the graph starting at "start"//
-        visited = new Map();
+        let visited = new Map();
         for (const [key, value] of this.buildings.entries()){
             visited.set(key, false);
         }
-        root = start;
-        q = new Array(); // queue of nodes to visit next
+        let root = start;
+        let q = new Array(); // queue of nodes to visit next
         q.push(root);
 
-        depth = 1;
+        var depth = 1;
         while (q.size != 0){
-            cur = q[0];
+            let cur = q[0];
             q = q.splice(0, 1); 
 
             visited.set(cur, true);
@@ -55,6 +51,42 @@ export class BuildingGraph{
         return -1
     }
 
+    // Takes the acronym for the "root" building, and returns a Map where each building acronym is the key and the minimum number of bridges between them
+    // and the root is the value. If a building B is not connected to the root, the value at B will be -1.
+    getDistances(root){
+        if (!this.buildings.haskey(root)){
+            throw new Error (`There is no building with the name ${root} in the graph!`);
+        }
+
+        // BFS the graph starting at the specified root //
+        let distances = new Map();
+        let visited = new Map();
+        for (const [key, value] of this.buildings.entries()){
+            visited.set(key, false);
+            distances.set(key, -1);
+        }
+        let q = new Array(); // queue of nodes to visit next
+        q.push(root);
+        distances.set(root, 0);
+
+        var depth = 1;
+        while (q.size != 0){
+            let cur = q[0];
+            q = q.splice(0, 1); 
+
+            visited.set(cur, true);
+            for (let conn of cur.connectsTo){
+                distances.set(conn, depth);
+                if (!visited.get(conn)){
+                    q.push(conn);
+                }
+            }
+            depth++;
+        }
+
+        return distances;
+    }
+
     isConnected(start, finish){
         return this.bridgeDistance(start, finish) != -1;
     }
@@ -63,7 +95,7 @@ export class BuildingGraph{
         this.buildings.set(building.acronym, building);
     }
 
-    getBuildingByacronym(acronym){
+    getBuildingByAcronym(acronym){
         return this.buildings.get(acronym);
     }
 }

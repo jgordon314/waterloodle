@@ -52,4 +52,8 @@ body, div#root, div.App {
   height: 100vh;
 }
 
+.UWMap {
+  width:100%;
+  height:100%;
+}
 

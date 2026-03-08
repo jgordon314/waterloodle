@@ -3,7 +3,7 @@ import React from "react";
 import "./SearchBar.css";
 
 export function SearchBar({ handleSubmit, handleGiveUp, buildings }) {
-  const [items, setItems] = React.useState([]);
+  const [items, setItems] = React.useState(buildings);
   const {
     isOpen,
     getToggleButtonProps,
@@ -12,12 +12,13 @@ export function SearchBar({ handleSubmit, handleGiveUp, buildings }) {
     highlightedIndex,
     getItemProps,
     selectedItem,
+    reset,
   } = useCombobox({
     onInputValueChange({ inputValue }) {
       const normalizedInput = (inputValue ?? "").trim().toLowerCase();
 
       if (!normalizedInput) {
-        setItems([]);
+        setItems(buildings);
         return;
       }
 
@@ -41,6 +42,8 @@ export function SearchBar({ handleSubmit, handleGiveUp, buildings }) {
       onSubmit={(e) => {
         e.preventDefault();
         handleSubmit(selectedItem);
+        setItems([buildings]);
+        reset();
       }}
       autoComplete="off"
     >

@@ -17,7 +17,7 @@ function MainScreen({ useDaily, onRestart }) {
   const [guesses, setGuesses] = useState([]);
   const [showEndScreen, setShowEndScreen] = useState(false);
   const [isWin, setWin] = useState(false);
-  const maxGuesses = 8;
+  const maxGuesses = 6;
 
   useEffect(() => {
     if (useDaily) {

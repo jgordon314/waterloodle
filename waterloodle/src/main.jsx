@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react';
 import { Group, Panel } from "react-resizable-panels";
 import GuessRow from "./guessRow.js";
 import buildingData from './data/buildings.json';
-import WinModal from './Components/winModal.jsx';
-import UWMap from './Components/UWMap.js';
+import WinModal from './components/winModal.jsx';
+import UWMap from './components/UWMap.js';
 
 function seededRandomGenerator(seed) {
     seed = (1664525 * seed + 1013904223) >>> 0;
@@ -211,7 +211,7 @@ function MainScreen({ useDaily, onRestart }) {
                 </div>
             </Panel>
 
-            <Panel defaultSize={isMobile ? 0 : 35} minSize={10}>
+            <Panel defaultSize={isMobile ? 0 : 65} minSize={10}>
                 <div style={{ 
                     height: '100%',
                     padding: '16px',

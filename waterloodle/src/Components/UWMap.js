@@ -4,7 +4,7 @@ export default function UWMap({ guessed, distances}){
     // console.log(distances);
     return (
         <div className="UWMap">
-            <svg viewBox={`0, 0, 2400, 4000`} >
+            <svg viewBox={`0, 0, 1600, 1937`} maxheight="100vh" >
             <image href="/bettermap.png"></image>
             {polygons.map(({ id, points }) => {
                 // If guessed, use fillColors[id], else transparent

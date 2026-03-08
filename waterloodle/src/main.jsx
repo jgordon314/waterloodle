@@ -17,7 +17,7 @@ function MainScreen({ useDaily, onRestart }) {
   const [guesses, setGuesses] = useState([]);
   const [showEndScreen, setShowEndScreen] = useState(false);
   const [isWin, setWin] = useState(false);
-  const maxGuesses = 8;
+  const maxGuesses = 6;
 
   useEffect(() => {
     if (useDaily) {
@@ -178,36 +178,16 @@ function MainScreen({ useDaily, onRestart }) {
 
       <Panel defaultSize={65} minSize={20}>
         <div
-          style={{
-            height: "100%",
-            padding: "16px",
-            boxSizing: "border-box",
-            backgroundColor: "#000000",
-            color: "#ffd700",
-          }}
-        >
-          <h1
             style={{
-              margin: "0 0 16px 0",
-              color: "#ffd700",
-              textShadow: "0 0 8px rgba(255, 215, 0, 0.3)",
-            }}
-          >
-            Map for {building.name}
-          </h1>
-          {/* Your map component / image / leaflet / etc goes here – unchanged */}
-          <div
-            style={{
-              height: "calc(100% - 40px)",
-              background: "#111",
-              marginTop: "12px",
-              overflow: "hidden",
-              border: "1px solid #333",
+              flex: 1,
+              overflowY: "auto",
+              border: "1px solid #444",
               borderRadius: "6px",
-            }}
-          >
+              backgroundColor: "#0d0d0d",
+              padding: "4px",
+              maxheight: "100%"
+            }}>
             <UWMap guessed={guesses} distances={new Map()}></UWMap>
-          </div>
         </div>
       </Panel>
       <WinModal

@@ -22,7 +22,7 @@ function InstructionPopup({ isOpen, onClose }) {
             <li>You can view the campus map to see where your building guess is</li>
             <li>Red buildings can not reach the secret building via tunnel/bridge</li>
             <li>Yellow buildings can reach the secret building via tunnel/bridge</li>
-            <li>If you guess the correct building within 8 tries, you win!</li>
+            <li>If you guess the correct building within 6 tries, you win!</li>
           </ul>
           
           <p className="tip">

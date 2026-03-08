@@ -2,7 +2,6 @@ import "./instructions.css";
 
 function WinModal({ isOpen, onClose, isWin, history, target }) {
   if (!isOpen) return null;
-
   return (
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
@@ -12,8 +11,11 @@ function WinModal({ isOpen, onClose, isWin, history, target }) {
 
         <h2>{isWin ? "You Won!" : "You Lost..."}</h2>
 
-        <div className="instructions">The answer is: {target.name}</div>
+        <div className="instructions">The answer is: {target.name} ({target.acronym})</div>
         <div className="instructions">Number of guesses: {history.length}</div>
+        {history.map((field, index) => (
+          <div className="instructions">Guess {history.length-index}: {field.acronym}</div>
+        ))}
 
         <button className="got-it-button" onClick={onClose}>
           Home

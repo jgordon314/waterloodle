@@ -17,9 +17,12 @@ function InstructionPopup({ isOpen, onClose }) {
         
         <div className="instructions">
           <ul>
-            <li>Click buttons</li>
-            <li>Enter text</li>
-            <li>Thrive</li>
+            <li>Enter a guess for the secret UW building on main campus</li>
+            <li>You will learn information about the accuracy of each of your guesses</li>
+            <li>You can view the campus map to see where your building guess is</li>
+            <li>Red buildings can not reach the secret building via tunnel/bridge</li>
+            <li>Yellow buildings can reach the secret building via tunnel/bridge</li>
+            <li>If you guess the correct building within 8 tries, you win!</li>
           </ul>
           
           <p className="tip">

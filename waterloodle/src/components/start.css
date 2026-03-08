@@ -43,15 +43,17 @@
 }
 
 .title {
-  font-size: 10.5rem;
+  font-size: 8vw;
   font-weight: 900;
   margin: 0 0 0.8rem 0;
   background: rgb(255, 225, 56);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  letter-spacing: -1px;
+  letter-spacing: -1px; 
   text-shadow: 0 0 40px rgba(255, 225, 56, 0.6);
+  text-align: center;
+  margin: 0 auto 0.8rem auto;
 }
 
 .menu {
@@ -74,6 +76,8 @@
   transition: all 0.25s ease;
   box-shadow: 0 8px 30px rgba(190, 203, 1, 0.45);
   transform: scale(0.9);
+  height: 20vh;
+  font-size: 5.6vh;
 }
 
 .start-button:hover:not(:disabled) {
@@ -93,6 +97,8 @@
   cursor: pointer;
   transition: all 0.2s ease;
   backdrop-filter: blur(8px);
+  height: 10vh;
+  font-size: 2.8vh;
 }
 
 .secondary-button:hover {

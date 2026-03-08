@@ -2,8 +2,9 @@ import { useState, useEffect } from "react";
 import { Group, Panel } from "react-resizable-panels";
 import GuessRow from "./guessRow.js";
 import buildingData from "./data/buildings.json";
-import WinModal from "./Components/winModal.jsx";
-import UWMap from "./Components/UWMap.js";
+import WinModal from "./components/winModal.jsx";
+import UWMap from "./components/UWMap.js";
+import {SearchBar} from "./SearchBar.jsx";
 
 function seededRandomGenerator(seed) {
   seed = (1664525 * seed + 1013904223) >>> 0;
@@ -16,7 +17,7 @@ function MainScreen({ useDaily, onRestart }) {
   const [guesses, setGuesses] = useState([]);
   const [showEndScreen, setShowEndScreen] = useState(false);
   const [isWin, setWin] = useState(false);
-  const [remainingGuesses, setRemainingGuesses] = useState(10);
+  const maxGuesses = 8;
 
   useEffect(() => {
     if (useDaily) {
